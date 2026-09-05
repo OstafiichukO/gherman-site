@@ -1,0 +1,1672 @@
+{
+  "home-mobile": {
+    "url": "https://gherman.com.ua/",
+    "finalUrl": "https://gherman.com.ua/",
+    "status": 200,
+    "navMs": 3349,
+    "navErr": null,
+    "evalErr": null,
+    "netlog": [
+      {
+        "url": "https://gherman.com.ua/",
+        "status": 200,
+        "bytes": 5269348,
+        "ms": 2190,
+        "type": "document"
+      },
+      {
+        "url": "https://www.google.com/maps?q=%D0%A7%D0%B5%D1%80%D0%BD%D1%96%D0%B2%D1%86%D1%96,+%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%93%D0%B5%D1%80%D0%BE%D1%97%D0%B2+%D0%9C",
+        "status": 0,
+        "err": "TypeError: fetch failed",
+        "type": "document"
+      },
+      {
+        "url": "https://ipapi.co/json/",
+        "status": 200,
+        "bytes": 783,
+        "ms": 529,
+        "type": "fetch"
+      },
+      {
+        "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/manual_listings?select=*&listing_type=eq.exclusive&active=eq.true&order=position.asc",
+        "status": 401,
+        "bytes": 200,
+        "ms": 1036,
+        "type": "fetch"
+      },
+      {
+        "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/public_site_objects?select=price&price=not.is.null&order=price.desc&limit=1",
+        "status": 200,
+        "bytes": 18,
+        "ms": 1106,
+        "type": "fetch"
+      },
+      {
+        "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/site_visits",
+        "status": 201,
+        "bytes": 0,
+        "ms": 1158,
+        "type": "fetch"
+      },
+      {
+        "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/manual_listings?select=*&listing_type=eq.exclusive&active=eq.true&order=position.asc",
+        "status": 401,
+        "bytes": 200,
+        "ms": 165,
+        "type": "fetch"
+      },
+      {
+        "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/manual_listings?select=*&listing_type=eq.exclusive&active=eq.true&order=position.asc",
+        "status": 401,
+        "bytes": 200,
+        "ms": 278,
+        "type": "fetch"
+      }
+    ],
+    "netlogTotal": 8,
+    "netBytes": 5270749,
+    "netBad": [
+      {
+        "url": "https://www.google.com/maps?q=%D0%A7%D0%B5%D1%80%D0%BD%D1%96%D0%B2%D1%86%D1%96,+%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%93%D0%B5%D1%80%D0%BE%D1%97%D0%B2+%D0%9C",
+        "status": 0,
+        "err": "TypeError: fetch failed",
+        "type": "document"
+      },
+      {
+        "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/manual_listings?select=*&listing_type=eq.exclusive&active=eq.true&order=position.asc",
+        "status": 401,
+        "bytes": 200,
+        "ms": 1036,
+        "type": "fetch"
+      },
+      {
+        "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/manual_listings?select=*&listing_type=eq.exclusive&active=eq.true&order=position.asc",
+        "status": 401,
+        "bytes": 200,
+        "ms": 165,
+        "type": "fetch"
+      },
+      {
+        "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/manual_listings?select=*&listing_type=eq.exclusive&active=eq.true&order=position.asc",
+        "status": 401,
+        "bytes": 200,
+        "ms": 278,
+        "type": "fetch"
+      }
+    ],
+    "console": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+        "loc": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/manual_listings?select=*&listing_type=eq.exclusive&active=eq.true&order"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+        "loc": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/manual_listings?select=*&listing_type=eq.exclusive&active=eq.true&order"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+        "loc": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/manual_listings?select=*&listing_type=eq.exclusive&active=eq.true&order"
+      }
+    ],
+    "consoleTotal": 3,
+    "pageErrors": [],
+    "failed": [
+      {
+        "url": "https://www.google.com/maps?q=%D0%A7%D0%B5%D1%80%D0%BD%D1%96%D0%B2%D1%86%D1%96,+%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%93%D0%B5%D1%80%D0%B",
+        "err": "net::ERR_FAILED"
+      },
+      {
+        "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/site_visits",
+        "err": "net::ERR_ABORTED"
+      }
+    ],
+    "failedTotal": 2,
+    "http4xx5xx": [
+      {
+        "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/manual_listings?select=*&listing_type=eq.exclusive&active=eq.true&order=position.asc",
+        "status": 401
+      },
+      {
+        "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/manual_listings?select=*&listing_type=eq.exclusive&active=eq.true&order=position.asc",
+        "status": 401
+      },
+      {
+        "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/manual_listings?select=*&listing_type=eq.exclusive&active=eq.true&order=position.asc",
+        "status": 401
+      }
+    ],
+    "http4xx5xxTotal": 3,
+    "vw": 390,
+    "vh": 664,
+    "dpr": 3,
+    "docScrollWidth": 390,
+    "docScrollHeight": 7208,
+    "overflow": [],
+    "smallTaps": [
+      {
+        "sel": "button.icon-btn",
+        "w": 38,
+        "h": 42,
+        "text": ""
+      },
+      {
+        "sel": "a.icon-btn.phone-btn",
+        "w": 38,
+        "h": 42,
+        "text": ""
+      },
+      {
+        "sel": "div.field-label",
+        "w": 306,
+        "h": 15,
+        "text": "БІЛЬШЕ ФІЛЬТРІВ"
+      },
+      {
+        "sel": "a",
+        "w": 178,
+        "h": 37,
+        "text": "Дізнатись більше"
+      },
+      {
+        "sel": "a",
+        "w": 178,
+        "h": 38,
+        "text": "Написати боту"
+      },
+      {
+        "sel": "a",
+        "w": 226,
+        "h": 31,
+        "text": "Сайт avtostrahovka.com.ua"
+      },
+      {
+        "sel": "a",
+        "w": 157,
+        "h": 17,
+        "text": "Відкрити в Google Maps →"
+      },
+      {
+        "sel": "a.phone",
+        "w": 320,
+        "h": 29,
+        "text": "050 220 55 99"
+      },
+      {
+        "sel": "a.foot-review-link",
+        "w": 320,
+        "h": 17,
+        "text": "Google-відгук · залишити відгук →"
+      },
+      {
+        "sel": "a",
+        "w": 157,
+        "h": 13,
+        "text": "Політика конфіденційності"
+      },
+      {
+        "sel": "a",
+        "w": 34,
+        "h": 34,
+        "text": ""
+      },
+      {
+        "sel": "a",
+        "w": 34,
+        "h": 34,
+        "text": ""
+      },
+      {
+        "sel": "a",
+        "w": 34,
+        "h": 34,
+        "text": ""
+      },
+      {
+        "sel": "a",
+        "w": 34,
+        "h": 34,
+        "text": ""
+      },
+      {
+        "sel": "a",
+        "w": 34,
+        "h": 34,
+        "text": ""
+      }
+    ],
+    "smallTapsTotal": 15,
+    "imgReport": {
+      "total": 13,
+      "broken": [],
+      "noAlt": [
+        {
+          "sel": "img#info-modal-photo",
+          "src": "https://gherman.com.ua/"
+        }
+      ],
+      "emptyAlt": 7,
+      "noDims": 13,
+      "noLazy": 13,
+      "oversized": []
+    },
+    "headings": {
+      "h1": [
+        "Простір для життя, яке ви уявляли."
+      ],
+      "counts": {
+        "H1": 1,
+        "H2": 2,
+        "H3": 5,
+        "H4": 0,
+        "H5": 0,
+        "H6": 0
+      }
+    },
+    "noName": [],
+    "noNameTotal": 0,
+    "unlabeled": [
+      {
+        "sel": "input#rooms-filter",
+        "placeholder": "будь-яка",
+        "type": "number"
+      },
+      {
+        "sel": "input#lead-name-2",
+        "placeholder": "Ваше ім'я",
+        "type": "text"
+      },
+      {
+        "sel": "input#lead-phone-2",
+        "placeholder": "Телефон",
+        "type": "tel"
+      }
+    ],
+    "unlabeledTotal": 3,
+    "tiny": [
+      {
+        "sel": "div.field-label",
+        "fs": 10,
+        "text": "РАЙОН"
+      },
+      {
+        "sel": "div.field-label",
+        "fs": 10,
+        "text": "КІМНАТ"
+      },
+      {
+        "sel": "div.field-label",
+        "fs": 10,
+        "text": "БЮДЖЕТ"
+      },
+      {
+        "sel": "span",
+        "fs": 10,
+        "text": "БІЛЬШЕ ФІЛЬТРІВ"
+      },
+      {
+        "sel": "div.eyebrow",
+        "fs": 11,
+        "text": "ЧЕРНІВЦІ · З 2013 РОКУ"
+      },
+      {
+        "sel": "span",
+        "fs": 9,
+        "text": "РОКІВ НА РИНКУ"
+      },
+      {
+        "sel": "span",
+        "fs": 9,
+        "text": "ОБ'ЄКТІВ ЧЕРЕЗ БАЗУ"
+      },
+      {
+        "sel": "span",
+        "fs": 9,
+        "text": "ОЦІНКА GOOGLE"
+      },
+      {
+        "sel": "div.eyebrow",
+        "fs": 11,
+        "text": "КОНТАКТИ"
+      },
+      {
+        "sel": "div",
+        "fs": 11,
+        "text": "ДИРЕКТОР"
+      },
+      {
+        "sel": "div.fine-print",
+        "fs": 10.5,
+        "text": "Натискаючи кнопку, ви погоджуєтесь на об"
+      },
+      {
+        "sel": "div.eyebrow",
+        "fs": 11,
+        "text": "ПАРТНЕРАМ"
+      }
+    ],
+    "tinyTotal": 26,
+    "vpMeta": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+    "domNodes": 686,
+    "bodyTextLen": 3102,
+    "bodyTextSample": "G GHERMAN ВАША АГЕНЦІЯ НЕРУХОМОСТІ В ЧЕРНІВЦЯХ Квартира Будинок Земля РАЙОН 📍 Будь-який район КІМНАТ залиште пустим, щоб не фільтрувати БЮДЖЕТ до 45 000$ 279 варіантів БІЛЬШЕ ФІЛЬТРІВ ПОКАЗАТИ ОБ'ЄКТИ Каталог об'єктів КВАРТИРИ БУДИНКИ ЗЕМЕЛЬНІ ДІЛЯНКИ НОВОБУДОВИ ОРЕНДА КОМЕРЦІЙНА НЕРУХОМІСТЬ ЧЕРНІВ",
+    "linkCount": 38,
+    "uniqueHrefs": 14,
+    "emptyHref": 12,
+    "extNoRel": [
+      "https://t.me/ghermancv",
+      "https://instagram.com/gherman.agency",
+      "https://www.facebook.com/share/1CFonVz2vr/?mibextid=wwXIfr",
+      "https://tiktok.com/@gherman.agency",
+      "https://search.google.com/local/writereview?placeid=ChIJq6q6hLsINEcR4OgcI6S_YV0",
+      "https://t.me/tas_strahovka_bot",
+      "https://avtostrahovka.com.ua/",
+      "https://t.me/ghermancv",
+      "https://www.google.com/maps/search/?api=1&query=%D0%A7%D0%B5%D1%80%D0%BD%D1%96%D0%B2%D1%86",
+      "https://t.me/ghermancv"
+    ],
+    "perf": {
+      "ttfb": 2582,
+      "domContentLoaded": 3331,
+      "load": 3345,
+      "fcp": 2892,
+      "lcp": 2892,
+      "lcpEl": "IMG src=data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwk",
+      "cls": 0.0014,
+      "shifts": [],
+      "longtasks": [
+        151
+      ],
+      "htmlTransferKB": 5146,
+      "htmlDecodedKB": 5146,
+      "totalTransferKB": 5146,
+      "resourceCount": 7,
+      "byType": {
+        "iframe": {
+          "n": 1,
+          "kb": 0
+        },
+        "fetch": {
+          "n": 6,
+          "kb": 0
+        }
+      },
+      "slowest": [
+        {
+          "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/site_visits",
+          "ms": 1163,
+          "kb": 0
+        },
+        {
+          "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/public_site_objects?select=price&price=not.is.null&order=pric",
+          "ms": 1147,
+          "kb": 0
+        },
+        {
+          "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/manual_listings?select=*&listing_type=eq.exclusive&active=eq.",
+          "ms": 1043,
+          "kb": 0
+        },
+        {
+          "url": "https://ipapi.co/json/",
+          "ms": 537,
+          "kb": 0
+        },
+        {
+          "url": "https://www.google.com/maps?q=%D0%A7%D0%B5%D1%80%D0%BD%D1%96%D0%B2%D1%86%D1%96,+%D0%B2%D1%83%D0%BB%D0%B8%D1%86",
+          "ms": 340,
+          "kb": 0
+        },
+        {
+          "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/manual_listings?select=*&listing_type=eq.exclusive&active=eq.",
+          "ms": 282,
+          "kb": 0
+        },
+        {
+          "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/manual_listings?select=*&listing_type=eq.exclusive&active=eq.",
+          "ms": 170,
+          "kb": 0
+        }
+      ],
+      "thirdParty": [
+        "www.google.com",
+        "yglebmbtdyjyqnmwwsku.supabase.co",
+        "ipapi.co"
+      ]
+    },
+    "hrefsSample": [
+      "tel:0502205599",
+      "https://t.me/ghermancv",
+      "https://instagram.com/gherman.agency",
+      "https://www.facebook.com/share/1CFonVz2vr/?mibextid=wwXIfr",
+      "https://tiktok.com/@gherman.agency",
+      "https://gherman.com.ua/#",
+      "https://search.google.com/local/writereview?placeid=ChIJq6q6hLsINEcR4OgcI6S_YV0",
+      "https://t.me/tas_strahovka_bot",
+      "https://avtostrahovka.com.ua/",
+      "https://www.google.com/maps/search/?api=1&query=%D0%A7%D0%B5%D1%80%D0%BD%D1%96%D0%B2%D1%86%D1%96+%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%93%D0%B5%D1%80%D0%BE%D1%97%D0%B2+%D0%9C%D0%B0%D0%B9%D0%B4%D0%B0%D0%BD%D1%83+31",
+      "https://wa.me/380502205599",
+      "viber://chat?number=%2B380502205599",
+      "https://gherman.com.ua/privacy-policy.html",
+      "https://t.me/gherman_site_crm_bot"
+    ]
+  },
+  "listing-mobile": {
+    "url": "https://gherman.com.ua/listings/01aa4881-6eff-40a2-ba44-2be4b0ac6b40.html",
+    "finalUrl": "https://gherman.com.ua/listings/01aa4881-6eff-40a2-ba44-2be4b0ac6b40.html",
+    "status": 200,
+    "navMs": 712,
+    "navErr": null,
+    "evalErr": null,
+    "netlog": [
+      {
+        "url": "https://gherman.com.ua/listings/01aa4881-6eff-40a2-ba44-2be4b0ac6b40.html",
+        "status": 200,
+        "bytes": 5033,
+        "ms": 674,
+        "type": "document"
+      },
+      {
+        "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/01aa4881-6eff-40a2-ba44-2be4b0ac6b40/1787754708231_o2y8d.jpg",
+        "status": 200,
+        "bytes": 127728,
+        "ms": 1072,
+        "type": "image"
+      }
+    ],
+    "netlogTotal": 2,
+    "netBytes": 132761,
+    "netBad": [],
+    "console": [],
+    "consoleTotal": 0,
+    "pageErrors": [],
+    "failed": [],
+    "failedTotal": 0,
+    "http4xx5xx": [],
+    "http4xx5xxTotal": 0,
+    "vw": 390,
+    "vh": 664,
+    "dpr": 3,
+    "docScrollWidth": 390,
+    "docScrollHeight": 1380,
+    "overflow": [],
+    "smallTaps": [
+      {
+        "sel": "a",
+        "w": 121,
+        "h": 22,
+        "text": "GHERMAN"
+      },
+      {
+        "sel": "a.back",
+        "w": 185,
+        "h": 26,
+        "text": "← Усі об'єкти GHERMAN"
+      }
+    ],
+    "smallTapsTotal": 2,
+    "imgReport": {
+      "total": 1,
+      "broken": [],
+      "noAlt": [],
+      "emptyAlt": 0,
+      "noDims": 1,
+      "noLazy": 0,
+      "oversized": []
+    },
+    "headings": {
+      "h1": [
+        "Квартира — центр"
+      ],
+      "counts": {
+        "H1": 1,
+        "H2": 0,
+        "H3": 0,
+        "H4": 0,
+        "H5": 0,
+        "H6": 0
+      }
+    },
+    "noName": [],
+    "noNameTotal": 0,
+    "unlabeled": [],
+    "unlabeledTotal": 0,
+    "tiny": [],
+    "tinyTotal": 0,
+    "vpMeta": "width=device-width, initial-scale=1.0",
+    "domNodes": 36,
+    "bodyTextLen": 306,
+    "bodyTextSample": "GHERMAN Квартира — центр 72 000$ 80,5 м² 3 кімн. поверх 2/2 вул. вул. Гонти Івана суміжно-роздільні, індивідуальне опалення, ремонт, м/п вікна, окремий вхід, євро Дивитись на сайті й зв'язатись з агенцією ← Усі об'єкти GHERMAN © 2013–2026 GHERMAN · Агенція нерухомості в Чернівцях · вул. Героїв Майда",
+    "linkCount": 3,
+    "uniqueHrefs": 2,
+    "emptyHref": 0,
+    "extNoRel": [],
+    "perf": {
+      "ttfb": 681,
+      "domContentLoaded": 710,
+      "load": 710,
+      "fcp": 720,
+      "lcp": 1808,
+      "lcpEl": "IMG src=https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/01aa4881-6",
+      "cls": 0.6189,
+      "shifts": [
+        {
+          "value": 0.6189,
+          "sources": [
+            "H1",
+            "FOOTER",
+            "DIV.facts"
+          ]
+        }
+      ],
+      "longtasks": [],
+      "htmlTransferKB": 5,
+      "htmlDecodedKB": 5,
+      "totalTransferKB": 5,
+      "resourceCount": 1,
+      "byType": {
+        "img": {
+          "n": 1,
+          "kb": 0
+        }
+      },
+      "slowest": [
+        {
+          "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/01aa4881-6eff-40a2-ba44-2be4b0",
+          "ms": 1080,
+          "kb": 0
+        }
+      ],
+      "thirdParty": [
+        "yglebmbtdyjyqnmwwsku.supabase.co"
+      ]
+    },
+    "hrefsSample": [
+      "https://gherman.com.ua/",
+      "https://gherman.com.ua/?obj=01aa4881-6eff-40a2-ba44-2be4b0ac6b40"
+    ]
+  },
+  "rayon-mobile": {
+    "url": "https://gherman.com.ua/rayony/flat-tsentr.html",
+    "finalUrl": "https://gherman.com.ua/rayony/flat-tsentr.html",
+    "status": 200,
+    "navMs": 697,
+    "navErr": null,
+    "evalErr": null,
+    "netlog": [
+      {
+        "url": "https://gherman.com.ua/rayony/flat-tsentr.html",
+        "status": 200,
+        "bytes": 6750,
+        "ms": 669,
+        "type": "document"
+      }
+    ],
+    "netlogTotal": 1,
+    "netBytes": 6750,
+    "netBad": [],
+    "console": [],
+    "consoleTotal": 0,
+    "pageErrors": [],
+    "failed": [],
+    "failedTotal": 0,
+    "http4xx5xx": [],
+    "http4xx5xxTotal": 0,
+    "vw": 390,
+    "vh": 664,
+    "dpr": 3,
+    "docScrollWidth": 390,
+    "docScrollHeight": 2133,
+    "overflow": [],
+    "smallTaps": [
+      {
+        "sel": "a",
+        "w": 121,
+        "h": 22,
+        "text": "GHERMAN"
+      },
+      {
+        "sel": "a.back",
+        "w": 189,
+        "h": 27,
+        "text": "← На головну GHERMAN"
+      }
+    ],
+    "smallTapsTotal": 2,
+    "imgReport": {
+      "total": 0,
+      "broken": [],
+      "noAlt": [],
+      "emptyAlt": 0,
+      "noDims": 0,
+      "noLazy": 0,
+      "oversized": []
+    },
+    "headings": {
+      "h1": [
+        "Квартири у районі центр"
+      ],
+      "counts": {
+        "H1": 1,
+        "H2": 0,
+        "H3": 0,
+        "H4": 0,
+        "H5": 0,
+        "H6": 0
+      }
+    },
+    "noName": [],
+    "noNameTotal": 0,
+    "unlabeled": [],
+    "unlabeledTotal": 0,
+    "tiny": [],
+    "tinyTotal": 0,
+    "vpMeta": "width=device-width, initial-scale=1.0",
+    "domNodes": 55,
+    "bodyTextLen": 1058,
+    "bodyTextSample": "GHERMAN Квартири у районі центр Актуальна добірка: квартир на продаж у районі центр, Чернівці. Усі об'єкти — з перевіреними документами від агенції GHERMAN. центр — 70 000$ · 48 м² центр — 39 000$ · 38 м² центр — 67 000$ · 78 м² центр — 67 000$ · 43 м² центр — 74 300$ · 48 м² центр — 79 000$ · 42 м²",
+    "linkCount": 33,
+    "uniqueHrefs": 31,
+    "emptyHref": 0,
+    "extNoRel": [],
+    "perf": {
+      "ttfb": 673,
+      "domContentLoaded": 694,
+      "load": 694,
+      "fcp": 708,
+      "lcp": 708,
+      "lcpEl": "P",
+      "cls": 0,
+      "shifts": [],
+      "longtasks": [],
+      "htmlTransferKB": 7,
+      "htmlDecodedKB": 7,
+      "totalTransferKB": 7,
+      "resourceCount": 0,
+      "byType": {},
+      "slowest": [],
+      "thirdParty": []
+    },
+    "hrefsSample": [
+      "https://gherman.com.ua/",
+      "https://gherman.com.ua/listings/ef1d5f62-786c-4f92-b4fd-eee8431f2cc4",
+      "https://gherman.com.ua/listings/afc960c6-8245-40d4-ab3e-f640f540bda6",
+      "https://gherman.com.ua/listings/78a0b59c-b5c5-48e8-9a85-bf0addb2cd6f",
+      "https://gherman.com.ua/listings/b4d3913d-550d-4cf0-bf1f-96acdaf65a5e",
+      "https://gherman.com.ua/listings/d983e29e-0530-4e8b-bcf7-6636642e366e",
+      "https://gherman.com.ua/listings/f1e278d7-2fc0-4358-aaae-1ff9b3d93b51",
+      "https://gherman.com.ua/listings/faf2d8da-2e93-47fb-8588-e9a51cc2ecc9",
+      "https://gherman.com.ua/listings/f04caeae-8461-4a7c-a3ba-d0463167809f",
+      "https://gherman.com.ua/listings/77c2a475-ce66-492d-b590-e7f6c6c66eb6",
+      "https://gherman.com.ua/listings/f309b09d-072b-4c95-9971-6efc79c8cda0",
+      "https://gherman.com.ua/listings/c2781084-a933-4aa7-961b-fbfb4e129e4b",
+      "https://gherman.com.ua/listings/3cb4ad60-690e-44ba-bc82-206cd9a8a593",
+      "https://gherman.com.ua/listings/36610375-29c2-404d-89db-db5e2e297b39",
+      "https://gherman.com.ua/listings/9de7a4cc-26d3-405d-bc09-11c41dfc70c5",
+      "https://gherman.com.ua/listings/05233216-871e-4b7f-94c2-9819b7c247a7",
+      "https://gherman.com.ua/listings/b8d7cb0d-30c2-495f-a015-f6512860dcd6",
+      "https://gherman.com.ua/listings/65b10b59-ee4f-4140-8ae2-35678d438cef",
+      "https://gherman.com.ua/listings/ddd1e96b-47e1-4f5b-8fa9-bc3a45864e6d",
+      "https://gherman.com.ua/listings/76509d86-cc90-41cd-93ca-296f6ea533dc",
+      "https://gherman.com.ua/listings/cec62ff2-a468-4675-bd80-d38d1408ccfc",
+      "https://gherman.com.ua/listings/85143d13-e48b-4974-af53-12d6949f8184",
+      "https://gherman.com.ua/listings/e5a98595-45a3-4b18-a61a-f736fc09bc92",
+      "https://gherman.com.ua/listings/444fbcb1-19be-41d9-97ab-e5cedb04a865",
+      "https://gherman.com.ua/listings/1a5f6031-b35e-4a7b-980e-ab9f8bd50c05",
+      "https://gherman.com.ua/listings/a8ca79f2-1c9e-4788-b2a1-ffc629add44f",
+      "https://gherman.com.ua/listings/1a740940-b441-4c69-a984-827b8b8f653d",
+      "https://gherman.com.ua/listings/182a1d46-9858-4ab8-8884-85924e618ab3",
+      "https://gherman.com.ua/listings/3f255e89-f49f-4ed7-a58f-45e959739d73",
+      "https://gherman.com.ua/listings/4ca46fe6-ee79-49f1-8d81-70f0c31c37a0",
+      "https://gherman.com.ua/listings/4755d2c0-8f33-432a-8f3d-e653cc4c4879"
+    ]
+  },
+  "article-mobile": {
+    "url": "https://gherman.com.ua/baza-znan/yak-kupyty-kvartyru-v-chernivtsyah.html",
+    "finalUrl": "https://gherman.com.ua/baza-znan/yak-kupyty-kvartyru-v-chernivtsyah.html",
+    "status": 200,
+    "navMs": 81,
+    "navErr": null,
+    "evalErr": null,
+    "netlog": [
+      {
+        "url": "https://gherman.com.ua/baza-znan/yak-kupyty-kvartyru-v-chernivtsyah.html",
+        "status": 200,
+        "bytes": 5248,
+        "ms": 65,
+        "type": "document"
+      }
+    ],
+    "netlogTotal": 1,
+    "netBytes": 5248,
+    "netBad": [],
+    "console": [],
+    "consoleTotal": 0,
+    "pageErrors": [],
+    "failed": [],
+    "failedTotal": 0,
+    "http4xx5xx": [],
+    "http4xx5xxTotal": 0,
+    "vw": 390,
+    "vh": 664,
+    "dpr": 3,
+    "docScrollWidth": 390,
+    "docScrollHeight": 1033,
+    "overflow": [],
+    "smallTaps": [
+      {
+        "sel": "a",
+        "w": 121,
+        "h": 22,
+        "text": "GHERMAN"
+      },
+      {
+        "sel": "a.back",
+        "w": 192,
+        "h": 28,
+        "text": "← База знань і всі об'єкти"
+      }
+    ],
+    "smallTapsTotal": 2,
+    "imgReport": {
+      "total": 0,
+      "broken": [],
+      "noAlt": [],
+      "emptyAlt": 0,
+      "noDims": 0,
+      "noLazy": 0,
+      "oversized": []
+    },
+    "headings": {
+      "h1": [
+        "Як купити квартиру в Чернівцях: покроковий гід"
+      ],
+      "counts": {
+        "H1": 1,
+        "H2": 0,
+        "H3": 0,
+        "H4": 0,
+        "H5": 0,
+        "H6": 0
+      }
+    },
+    "noName": [],
+    "noNameTotal": 0,
+    "unlabeled": [],
+    "unlabeledTotal": 0,
+    "tiny": [],
+    "tinyTotal": 0,
+    "vpMeta": "width=device-width, initial-scale=1.0",
+    "domNodes": 28,
+    "bodyTextLen": 942,
+    "bodyTextSample": "GHERMAN Як купити квартиру в Чернівцях: покроковий гід Купівля квартири в Чернівцях починається з визначення бюджету і району. У місті є кілька умовно різних цінових зон: центр і паркова зона традиційно дорожчі, райони Проспект-Комарова, Ентузіастів-БГСт., Садгора чи Роша — доступніші за ціною за кв",
+    "linkCount": 3,
+    "uniqueHrefs": 1,
+    "emptyHref": 0,
+    "extNoRel": [],
+    "perf": {
+      "ttfb": 69,
+      "domContentLoaded": 80,
+      "load": 80,
+      "fcp": 100,
+      "lcp": 100,
+      "lcpEl": "P",
+      "cls": 0,
+      "shifts": [],
+      "longtasks": [],
+      "htmlTransferKB": 5,
+      "htmlDecodedKB": 5,
+      "totalTransferKB": 5,
+      "resourceCount": 0,
+      "byType": {},
+      "slowest": [],
+      "thirdParty": []
+    },
+    "hrefsSample": [
+      "https://gherman.com.ua/"
+    ]
+  },
+  "home-desktop": {
+    "url": "https://gherman.com.ua/",
+    "finalUrl": "https://gherman.com.ua/index-desktop-preview.html",
+    "status": 200,
+    "navMs": 2187,
+    "navErr": null,
+    "evalErr": null,
+    "netlog": [
+      {
+        "url": "https://gherman.com.ua/",
+        "status": 200,
+        "bytes": 5269348,
+        "ms": 620,
+        "type": "document"
+      },
+      {
+        "url": "https://gherman.com.ua/index-desktop-preview.html",
+        "status": 200,
+        "bytes": 5461245,
+        "ms": 601,
+        "type": "document"
+      },
+      {
+        "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/manual_listings?select=*&listing_type=eq.exclusive&active=eq.true&order=position.asc",
+        "status": 401,
+        "bytes": 200,
+        "ms": 704,
+        "type": "fetch"
+      },
+      {
+        "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/public_site_objects?select=price&price=not.is.null&order=price.desc&limit=1",
+        "status": 200,
+        "bytes": 18,
+        "ms": 747,
+        "type": "fetch"
+      },
+      {
+        "url": "https://www.google.com/maps?q=%D0%B2%D1%83%D0%BB.%20%D0%93%D0%B5%D1%80%D0%BE%D1%97%D0%B2%20%D0%9C%D0%B0%D0%B9%D0%B4%D0%B0%D0%BD%D1%83%2C%2031%2C%20%D0%A7%D0%B5%",
+        "status": 0,
+        "err": "TypeError: fetch failed",
+        "type": "document"
+      }
+    ],
+    "netlogTotal": 5,
+    "netBytes": 10730811,
+    "netBad": [
+      {
+        "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/manual_listings?select=*&listing_type=eq.exclusive&active=eq.true&order=position.asc",
+        "status": 401,
+        "bytes": 200,
+        "ms": 704,
+        "type": "fetch"
+      },
+      {
+        "url": "https://www.google.com/maps?q=%D0%B2%D1%83%D0%BB.%20%D0%93%D0%B5%D1%80%D0%BE%D1%97%D0%B2%20%D0%9C%D0%B0%D0%B9%D0%B4%D0%B0%D0%BD%D1%83%2C%2031%2C%20%D0%A7%D0%B5%",
+        "status": 0,
+        "err": "TypeError: fetch failed",
+        "type": "document"
+      }
+    ],
+    "console": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+        "loc": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/manual_listings?select=*&listing_type=eq.exclusive&active=eq.true&order"
+      }
+    ],
+    "consoleTotal": 1,
+    "pageErrors": [],
+    "failed": [
+      {
+        "url": "https://www.google.com/maps?q=%D0%B2%D1%83%D0%BB.%20%D0%93%D0%B5%D1%80%D0%BE%D1%97%D0%B2%20%D0%9C%D0%B0%D0%B9%D0%B4%D0%B0%D0%BD%D1%83%2C%203",
+        "err": "net::ERR_FAILED"
+      }
+    ],
+    "failedTotal": 1,
+    "http4xx5xx": [
+      {
+        "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/manual_listings?select=*&listing_type=eq.exclusive&active=eq.true&order=position.asc",
+        "status": 401
+      }
+    ],
+    "http4xx5xxTotal": 1,
+    "vw": 1440,
+    "vh": 900,
+    "dpr": 1,
+    "docScrollWidth": 1440,
+    "docScrollHeight": 9748,
+    "overflow": [],
+    "smallTaps": [
+      {
+        "sel": "div.field-label",
+        "w": 602,
+        "h": 15,
+        "text": "БІЛЬШЕ ФІЛЬТРІВ"
+      },
+      {
+        "sel": "a#buy-inline-toggle",
+        "w": 254,
+        "h": 24,
+        "text": "Як ми супроводжуємо купівлю →"
+      },
+      {
+        "sel": "a",
+        "w": 131,
+        "h": 16,
+        "text": "Про компанію →"
+      },
+      {
+        "sel": "a.excl-text-more",
+        "w": 278,
+        "h": 24,
+        "text": "Як ми супроводжуємо ексклюзиви →"
+      },
+      {
+        "sel": "a",
+        "w": 226,
+        "h": 31,
+        "text": "Сайт avtostrahovka.com.ua"
+      },
+      {
+        "sel": "a.da-more",
+        "w": 130,
+        "h": 20,
+        "text": "Написати боту →"
+      },
+      {
+        "sel": "a.da-more",
+        "w": 110,
+        "h": 20,
+        "text": "Детальніше →"
+      },
+      {
+        "sel": "a.da-more",
+        "w": 110,
+        "h": 20,
+        "text": "Детальніше →"
+      },
+      {
+        "sel": "a.da-more",
+        "w": 110,
+        "h": 20,
+        "text": "Детальніше →"
+      },
+      {
+        "sel": "a.da-more",
+        "w": 110,
+        "h": 20,
+        "text": "Детальніше →"
+      },
+      {
+        "sel": "a.glass-more",
+        "w": 258,
+        "h": 20,
+        "text": "Як ми супроводжуємо купівлю →"
+      },
+      {
+        "sel": "a.glass-more",
+        "w": 127,
+        "h": 20,
+        "text": "Умови оренди →"
+      },
+      {
+        "sel": "a.cd-office-link",
+        "w": 181,
+        "h": 14,
+        "text": "Відкрити в Google Maps →"
+      },
+      {
+        "sel": "a.cd-phone",
+        "w": 340,
+        "h": 33,
+        "text": "050 220 55 99"
+      },
+      {
+        "sel": "a.cd-phone-2",
+        "w": 340,
+        "h": 21,
+        "text": "097 711 25 90"
+      },
+      {
+        "sel": "a",
+        "w": 36,
+        "h": 36,
+        "text": ""
+      },
+      {
+        "sel": "a",
+        "w": 36,
+        "h": 36,
+        "text": ""
+      },
+      {
+        "sel": "a",
+        "w": 36,
+        "h": 36,
+        "text": ""
+      },
+      {
+        "sel": "a",
+        "w": 36,
+        "h": 36,
+        "text": ""
+      },
+      {
+        "sel": "a.cd-review",
+        "w": 240,
+        "h": 18,
+        "text": "Google-відгук · залишити відгук →"
+      },
+      {
+        "sel": "a",
+        "w": 157,
+        "h": 13,
+        "text": "Політика конфіденційності"
+      }
+    ],
+    "smallTapsTotal": 21,
+    "imgReport": {
+      "total": 14,
+      "broken": [],
+      "noAlt": [
+        {
+          "sel": "img#info-modal-photo",
+          "src": "https://gherman.com.ua/index-desktop-preview.html"
+        },
+        {
+          "sel": "img",
+          "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8"
+        }
+      ],
+      "emptyAlt": 7,
+      "noDims": 13,
+      "noLazy": 14,
+      "oversized": [
+        {
+          "sel": "img.mark-illustration",
+          "natural": "220x172",
+          "shown": "46x36",
+          "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANwAAACsCAYAAAAQeMJAAADu70lEQVR42uy9d5xcZ33v/36ec86c6bOzvVdp1SXb"
+        },
+        {
+          "sel": "img",
+          "natural": "900x900",
+          "shown": "182x434",
+          "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhs"
+        },
+        {
+          "sel": "img",
+          "natural": "900x900",
+          "shown": "182x434",
+          "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhs"
+        },
+        {
+          "sel": "img",
+          "natural": "900x900",
+          "shown": "182x208",
+          "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhs"
+        },
+        {
+          "sel": "img",
+          "natural": "900x900",
+          "shown": "182x208",
+          "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhs"
+        },
+        {
+          "sel": "img",
+          "natural": "900x900",
+          "shown": "182x208",
+          "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhs"
+        },
+        {
+          "sel": "img",
+          "natural": "900x900",
+          "shown": "182x208",
+          "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhs"
+        },
+        {
+          "sel": "img",
+          "natural": "900x1124",
+          "shown": "388x484",
+          "src": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUEBAQEAwUEBAQGBQUGCA0ICAcHCBALDAkNExAUExIQEhIUFx0ZFBY"
+        }
+      ]
+    },
+    "headings": {
+      "h1": [
+        "Простір для життя, яке ви уявляли."
+      ],
+      "counts": {
+        "H1": 1,
+        "H2": 5,
+        "H3": 13,
+        "H4": 0,
+        "H5": 0,
+        "H6": 0
+      }
+    },
+    "noName": [],
+    "noNameTotal": 0,
+    "unlabeled": [
+      {
+        "sel": "input#rooms-filter",
+        "placeholder": "будь-яка",
+        "type": "number"
+      },
+      {
+        "sel": "input#faq-question-input-inline",
+        "placeholder": "Напишіть своє запитання...",
+        "type": "text"
+      },
+      {
+        "sel": "input#faq-question-phone-inline",
+        "placeholder": "Ваш телефон (щоб ми могли відповісти)",
+        "type": "tel"
+      }
+    ],
+    "unlabeledTotal": 3,
+    "tiny": [
+      {
+        "sel": "div.field-label",
+        "fs": 10,
+        "text": "РАЙОН"
+      },
+      {
+        "sel": "div.field-label",
+        "fs": 10,
+        "text": "КІМНАТ"
+      },
+      {
+        "sel": "div.field-label",
+        "fs": 10,
+        "text": "БЮДЖЕТ"
+      },
+      {
+        "sel": "span",
+        "fs": 10,
+        "text": "БІЛЬШЕ ФІЛЬТРІВ"
+      },
+      {
+        "sel": "div.sst-eyebrow",
+        "fs": 10.5,
+        "text": "ЮРИДИЧНА ЧИСТОТА УГОДИ"
+      },
+      {
+        "sel": "span",
+        "fs": 10.5,
+        "text": "років на ринку"
+      },
+      {
+        "sel": "span",
+        "fs": 10.5,
+        "text": "об'єктів у базі"
+      },
+      {
+        "sel": "span",
+        "fs": 10.5,
+        "text": "перевірка документів"
+      },
+      {
+        "sel": "div#hero-eyebrow",
+        "fs": 11,
+        "text": "ЧЕРНІВЦІ · З 2013 РОКУ"
+      },
+      {
+        "sel": "span",
+        "fs": 9,
+        "text": "РОКІВ НА РИНКУ"
+      },
+      {
+        "sel": "span",
+        "fs": 9,
+        "text": "ОБ'ЄКТІВ ЧЕРЕЗ БАЗУ"
+      },
+      {
+        "sel": "span",
+        "fs": 9,
+        "text": "ОЦІНКА GOOGLE"
+      }
+    ],
+    "tinyTotal": 34,
+    "vpMeta": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+    "domNodes": 924,
+    "bodyTextLen": 6867,
+    "bodyTextSample": "G GHERMAN ВАША АГЕНЦІЯ НЕРУХОМОСТІ В ЧЕРНІВЦЯХ Квартира Будинок Земля РАЙОН 📍 Будь-який район КІМНАТ залиште пустим, щоб не фільтрувати БЮДЖЕТ до 45 000$ 279 варіантів БІЛЬШЕ ФІЛЬТРІВ ПОКАЗАТИ ОБ'ЄКТИ ЮРИДИЧНА ЧИСТОТА УГОДИ Купити квартиру в Чернівцях Перед показом ми самі виїжджаємо на об'єкт, пер",
+    "linkCount": 62,
+    "uniqueHrefs": 15,
+    "emptyHref": 27,
+    "extNoRel": [
+      "https://t.me/ghermancv",
+      "https://instagram.com/gherman.agency",
+      "https://www.facebook.com/share/1CFonVz2vr/?mibextid=wwXIfr",
+      "https://tiktok.com/@gherman.agency",
+      "https://search.google.com/local/writereview?placeid=ChIJq6q6hLsINEcR4OgcI6S_YV0",
+      "https://t.me/tas_strahovka_bot",
+      "https://avtostrahovka.com.ua/",
+      "https://t.me/tas_strahovka_bot",
+      "https://t.me/ghermancv",
+      "https://www.google.com/maps/search/?api=1&query=%D0%A7%D0%B5%D1%80%D0%BD%D1%96%D0%B2%D1%86"
+    ],
+    "perf": {
+      "ttfb": 777,
+      "domContentLoaded": 1351,
+      "load": 1357,
+      "fcp": 824,
+      "lcp": 824,
+      "lcpEl": "DIV",
+      "cls": 0.008,
+      "shifts": [],
+      "longtasks": [
+        112
+      ],
+      "htmlTransferKB": 5334,
+      "htmlDecodedKB": 5333,
+      "totalTransferKB": 5334,
+      "resourceCount": 3,
+      "byType": {
+        "fetch": {
+          "n": 2,
+          "kb": 0
+        },
+        "iframe": {
+          "n": 1,
+          "kb": 0
+        }
+      },
+      "slowest": [
+        {
+          "url": "https://www.google.com/maps?q=%D0%B2%D1%83%D0%BB.%20%D0%93%D0%B5%D1%80%D0%BE%D1%97%D0%B2%20%D0%9C%D0%B0%D0%B9%",
+          "ms": 3964,
+          "kb": 0
+        },
+        {
+          "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/public_site_objects?select=price&price=not.is.null&order=pric",
+          "ms": 788,
+          "kb": 0
+        },
+        {
+          "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/manual_listings?select=*&listing_type=eq.exclusive&active=eq.",
+          "ms": 716,
+          "kb": 0
+        }
+      ],
+      "thirdParty": [
+        "yglebmbtdyjyqnmwwsku.supabase.co",
+        "www.google.com"
+      ]
+    },
+    "hrefsSample": [
+      "https://gherman.com.ua/index-desktop-preview.html#",
+      "tel:0502205599",
+      "https://t.me/ghermancv",
+      "https://instagram.com/gherman.agency",
+      "https://www.facebook.com/share/1CFonVz2vr/?mibextid=wwXIfr",
+      "https://tiktok.com/@gherman.agency",
+      "https://search.google.com/local/writereview?placeid=ChIJq6q6hLsINEcR4OgcI6S_YV0",
+      "https://t.me/tas_strahovka_bot",
+      "https://avtostrahovka.com.ua/",
+      "https://www.google.com/maps/search/?api=1&query=%D0%A7%D0%B5%D1%80%D0%BD%D1%96%D0%B2%D1%86%D1%96+%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%93%D0%B5%D1%80%D0%BE%D1%97%D0%B2+%D0%9C%D0%B0%D0%B9%D0%B4%D0%B0%D0%BD%D1%83+31",
+      "tel:0977112590",
+      "https://wa.me/380502205599",
+      "viber://chat?number=%2B380502205599",
+      "https://gherman.com.ua/privacy-policy.html",
+      "https://t.me/gherman_site_crm_bot"
+    ]
+  },
+  "listing-desktop": {
+    "url": "https://gherman.com.ua/listings/01aa4881-6eff-40a2-ba44-2be4b0ac6b40.html",
+    "finalUrl": "https://gherman.com.ua/listings/01aa4881-6eff-40a2-ba44-2be4b0ac6b40.html",
+    "status": 200,
+    "navMs": 1683,
+    "navErr": null,
+    "evalErr": null,
+    "netlog": [
+      {
+        "url": "https://gherman.com.ua/listings/01aa4881-6eff-40a2-ba44-2be4b0ac6b40.html",
+        "status": 200,
+        "bytes": 5033,
+        "ms": 1655,
+        "type": "document"
+      },
+      {
+        "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/01aa4881-6eff-40a2-ba44-2be4b0ac6b40/1787754708231_o2y8d.jpg",
+        "status": 200,
+        "bytes": 127728,
+        "ms": 364,
+        "type": "image"
+      }
+    ],
+    "netlogTotal": 2,
+    "netBytes": 132761,
+    "netBad": [],
+    "console": [],
+    "consoleTotal": 0,
+    "pageErrors": [],
+    "failed": [],
+    "failedTotal": 0,
+    "http4xx5xx": [],
+    "http4xx5xxTotal": 0,
+    "vw": 1440,
+    "vh": 900,
+    "dpr": 1,
+    "docScrollWidth": 1440,
+    "docScrollHeight": 1936,
+    "overflow": [],
+    "smallTaps": [
+      {
+        "sel": "a",
+        "w": 121,
+        "h": 22,
+        "text": "GHERMAN"
+      },
+      {
+        "sel": "a.back",
+        "w": 185,
+        "h": 26,
+        "text": "← Усі об'єкти GHERMAN"
+      }
+    ],
+    "smallTapsTotal": 2,
+    "imgReport": {
+      "total": 1,
+      "broken": [],
+      "noAlt": [],
+      "emptyAlt": 0,
+      "noDims": 1,
+      "noLazy": 0,
+      "oversized": []
+    },
+    "headings": {
+      "h1": [
+        "Квартира — центр"
+      ],
+      "counts": {
+        "H1": 1,
+        "H2": 0,
+        "H3": 0,
+        "H4": 0,
+        "H5": 0,
+        "H6": 0
+      }
+    },
+    "noName": [],
+    "noNameTotal": 0,
+    "unlabeled": [],
+    "unlabeledTotal": 0,
+    "tiny": [],
+    "tinyTotal": 0,
+    "vpMeta": "width=device-width, initial-scale=1.0",
+    "domNodes": 36,
+    "bodyTextLen": 306,
+    "bodyTextSample": "GHERMAN Квартира — центр 72 000$ 80,5 м² 3 кімн. поверх 2/2 вул. вул. Гонти Івана суміжно-роздільні, індивідуальне опалення, ремонт, м/п вікна, окремий вхід, євро Дивитись на сайті й зв'язатись з агенцією ← Усі об'єкти GHERMAN © 2013–2026 GHERMAN · Агенція нерухомості в Чернівцях · вул. Героїв Майда",
+    "linkCount": 3,
+    "uniqueHrefs": 2,
+    "emptyHref": 0,
+    "extNoRel": [],
+    "perf": {
+      "ttfb": 1658,
+      "domContentLoaded": 1681,
+      "load": 1681,
+      "fcp": 1696,
+      "lcp": 2104,
+      "lcpEl": "IMG src=https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/01aa4881-6",
+      "cls": 0.2203,
+      "shifts": [
+        {
+          "value": 0.2203,
+          "sources": [
+            "H1",
+            "FOOTER",
+            "DIV.facts"
+          ]
+        }
+      ],
+      "longtasks": [],
+      "htmlTransferKB": 5,
+      "htmlDecodedKB": 5,
+      "totalTransferKB": 5,
+      "resourceCount": 1,
+      "byType": {
+        "img": {
+          "n": 1,
+          "kb": 0
+        }
+      },
+      "slowest": [
+        {
+          "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/01aa4881-6eff-40a2-ba44-2be4b0",
+          "ms": 375,
+          "kb": 0
+        }
+      ],
+      "thirdParty": [
+        "yglebmbtdyjyqnmwwsku.supabase.co"
+      ]
+    },
+    "hrefsSample": [
+      "https://gherman.com.ua/",
+      "https://gherman.com.ua/?obj=01aa4881-6eff-40a2-ba44-2be4b0ac6b40"
+    ]
+  },
+  "rayon-desktop": {
+    "url": "https://gherman.com.ua/rayony/flat-tsentr.html",
+    "finalUrl": "https://gherman.com.ua/rayony/flat-tsentr.html",
+    "status": 200,
+    "navMs": 535,
+    "navErr": null,
+    "evalErr": null,
+    "netlog": [
+      {
+        "url": "https://gherman.com.ua/rayony/flat-tsentr.html",
+        "status": 200,
+        "bytes": 6750,
+        "ms": 517,
+        "type": "document"
+      }
+    ],
+    "netlogTotal": 1,
+    "netBytes": 6750,
+    "netBad": [],
+    "console": [],
+    "consoleTotal": 0,
+    "pageErrors": [],
+    "failed": [],
+    "failedTotal": 0,
+    "http4xx5xx": [],
+    "http4xx5xxTotal": 0,
+    "vw": 1440,
+    "vh": 900,
+    "dpr": 1,
+    "docScrollWidth": 1440,
+    "docScrollHeight": 2030,
+    "overflow": [],
+    "smallTaps": [
+      {
+        "sel": "a",
+        "w": 121,
+        "h": 22,
+        "text": "GHERMAN"
+      },
+      {
+        "sel": "a.back",
+        "w": 189,
+        "h": 27,
+        "text": "← На головну GHERMAN"
+      }
+    ],
+    "smallTapsTotal": 2,
+    "imgReport": {
+      "total": 0,
+      "broken": [],
+      "noAlt": [],
+      "emptyAlt": 0,
+      "noDims": 0,
+      "noLazy": 0,
+      "oversized": []
+    },
+    "headings": {
+      "h1": [
+        "Квартири у районі центр"
+      ],
+      "counts": {
+        "H1": 1,
+        "H2": 0,
+        "H3": 0,
+        "H4": 0,
+        "H5": 0,
+        "H6": 0
+      }
+    },
+    "noName": [],
+    "noNameTotal": 0,
+    "unlabeled": [],
+    "unlabeledTotal": 0,
+    "tiny": [],
+    "tinyTotal": 0,
+    "vpMeta": "width=device-width, initial-scale=1.0",
+    "domNodes": 55,
+    "bodyTextLen": 1058,
+    "bodyTextSample": "GHERMAN Квартири у районі центр Актуальна добірка: квартир на продаж у районі центр, Чернівці. Усі об'єкти — з перевіреними документами від агенції GHERMAN. центр — 70 000$ · 48 м² центр — 39 000$ · 38 м² центр — 67 000$ · 78 м² центр — 67 000$ · 43 м² центр — 74 300$ · 48 м² центр — 79 000$ · 42 м²",
+    "linkCount": 33,
+    "uniqueHrefs": 31,
+    "emptyHref": 0,
+    "extNoRel": [],
+    "perf": {
+      "ttfb": 520,
+      "domContentLoaded": 533,
+      "load": 533,
+      "fcp": 568,
+      "lcp": 568,
+      "lcpEl": "P",
+      "cls": 0,
+      "shifts": [],
+      "longtasks": [],
+      "htmlTransferKB": 7,
+      "htmlDecodedKB": 7,
+      "totalTransferKB": 7,
+      "resourceCount": 0,
+      "byType": {},
+      "slowest": [],
+      "thirdParty": []
+    },
+    "hrefsSample": [
+      "https://gherman.com.ua/",
+      "https://gherman.com.ua/listings/ef1d5f62-786c-4f92-b4fd-eee8431f2cc4",
+      "https://gherman.com.ua/listings/afc960c6-8245-40d4-ab3e-f640f540bda6",
+      "https://gherman.com.ua/listings/78a0b59c-b5c5-48e8-9a85-bf0addb2cd6f",
+      "https://gherman.com.ua/listings/b4d3913d-550d-4cf0-bf1f-96acdaf65a5e",
+      "https://gherman.com.ua/listings/d983e29e-0530-4e8b-bcf7-6636642e366e",
+      "https://gherman.com.ua/listings/f1e278d7-2fc0-4358-aaae-1ff9b3d93b51",
+      "https://gherman.com.ua/listings/faf2d8da-2e93-47fb-8588-e9a51cc2ecc9",
+      "https://gherman.com.ua/listings/f04caeae-8461-4a7c-a3ba-d0463167809f",
+      "https://gherman.com.ua/listings/77c2a475-ce66-492d-b590-e7f6c6c66eb6",
+      "https://gherman.com.ua/listings/f309b09d-072b-4c95-9971-6efc79c8cda0",
+      "https://gherman.com.ua/listings/c2781084-a933-4aa7-961b-fbfb4e129e4b",
+      "https://gherman.com.ua/listings/3cb4ad60-690e-44ba-bc82-206cd9a8a593",
+      "https://gherman.com.ua/listings/36610375-29c2-404d-89db-db5e2e297b39",
+      "https://gherman.com.ua/listings/9de7a4cc-26d3-405d-bc09-11c41dfc70c5",
+      "https://gherman.com.ua/listings/05233216-871e-4b7f-94c2-9819b7c247a7",
+      "https://gherman.com.ua/listings/b8d7cb0d-30c2-495f-a015-f6512860dcd6",
+      "https://gherman.com.ua/listings/65b10b59-ee4f-4140-8ae2-35678d438cef",
+      "https://gherman.com.ua/listings/ddd1e96b-47e1-4f5b-8fa9-bc3a45864e6d",
+      "https://gherman.com.ua/listings/76509d86-cc90-41cd-93ca-296f6ea533dc",
+      "https://gherman.com.ua/listings/cec62ff2-a468-4675-bd80-d38d1408ccfc",
+      "https://gherman.com.ua/listings/85143d13-e48b-4974-af53-12d6949f8184",
+      "https://gherman.com.ua/listings/e5a98595-45a3-4b18-a61a-f736fc09bc92",
+      "https://gherman.com.ua/listings/444fbcb1-19be-41d9-97ab-e5cedb04a865",
+      "https://gherman.com.ua/listings/1a5f6031-b35e-4a7b-980e-ab9f8bd50c05",
+      "https://gherman.com.ua/listings/a8ca79f2-1c9e-4788-b2a1-ffc629add44f",
+      "https://gherman.com.ua/listings/1a740940-b441-4c69-a984-827b8b8f653d",
+      "https://gherman.com.ua/listings/182a1d46-9858-4ab8-8884-85924e618ab3",
+      "https://gherman.com.ua/listings/3f255e89-f49f-4ed7-a58f-45e959739d73",
+      "https://gherman.com.ua/listings/4ca46fe6-ee79-49f1-8d81-70f0c31c37a0",
+      "https://gherman.com.ua/listings/4755d2c0-8f33-432a-8f3d-e653cc4c4879"
+    ]
+  },
+  "article-desktop": {
+    "url": "https://gherman.com.ua/baza-znan/yak-kupyty-kvartyru-v-chernivtsyah.html",
+    "finalUrl": "https://gherman.com.ua/baza-znan/yak-kupyty-kvartyru-v-chernivtsyah.html",
+    "status": 200,
+    "navMs": 82,
+    "navErr": null,
+    "evalErr": null,
+    "netlog": [
+      {
+        "url": "https://gherman.com.ua/baza-znan/yak-kupyty-kvartyru-v-chernivtsyah.html",
+        "status": 200,
+        "bytes": 5248,
+        "ms": 66,
+        "type": "document"
+      }
+    ],
+    "netlogTotal": 1,
+    "netBytes": 5248,
+    "netBad": [],
+    "console": [],
+    "consoleTotal": 0,
+    "pageErrors": [],
+    "failed": [],
+    "failedTotal": 0,
+    "http4xx5xx": [],
+    "http4xx5xxTotal": 0,
+    "vw": 1440,
+    "vh": 900,
+    "dpr": 1,
+    "docScrollWidth": 1440,
+    "docScrollHeight": 900,
+    "overflow": [],
+    "smallTaps": [
+      {
+        "sel": "a",
+        "w": 121,
+        "h": 22,
+        "text": "GHERMAN"
+      },
+      {
+        "sel": "a.back",
+        "w": 192,
+        "h": 28,
+        "text": "← База знань і всі об'єкти"
+      }
+    ],
+    "smallTapsTotal": 2,
+    "imgReport": {
+      "total": 0,
+      "broken": [],
+      "noAlt": [],
+      "emptyAlt": 0,
+      "noDims": 0,
+      "noLazy": 0,
+      "oversized": []
+    },
+    "headings": {
+      "h1": [
+        "Як купити квартиру в Чернівцях: покроковий гід"
+      ],
+      "counts": {
+        "H1": 1,
+        "H2": 0,
+        "H3": 0,
+        "H4": 0,
+        "H5": 0,
+        "H6": 0
+      }
+    },
+    "noName": [],
+    "noNameTotal": 0,
+    "unlabeled": [],
+    "unlabeledTotal": 0,
+    "tiny": [],
+    "tinyTotal": 0,
+    "vpMeta": "width=device-width, initial-scale=1.0",
+    "domNodes": 28,
+    "bodyTextLen": 942,
+    "bodyTextSample": "GHERMAN Як купити квартиру в Чернівцях: покроковий гід Купівля квартири в Чернівцях починається з визначення бюджету і району. У місті є кілька умовно різних цінових зон: центр і паркова зона традиційно дорожчі, райони Проспект-Комарова, Ентузіастів-БГСт., Садгора чи Роша — доступніші за ціною за кв",
+    "linkCount": 3,
+    "uniqueHrefs": 1,
+    "emptyHref": 0,
+    "extNoRel": [],
+    "perf": {
+      "ttfb": 71,
+      "domContentLoaded": 81,
+      "load": 81,
+      "fcp": 108,
+      "lcp": 108,
+      "lcpEl": "P",
+      "cls": 0,
+      "shifts": [],
+      "longtasks": [],
+      "htmlTransferKB": 5,
+      "htmlDecodedKB": 5,
+      "totalTransferKB": 5,
+      "resourceCount": 0,
+      "byType": {},
+      "slowest": [],
+      "thirdParty": []
+    },
+    "hrefsSample": [
+      "https://gherman.com.ua/"
+    ]
+  }
+}

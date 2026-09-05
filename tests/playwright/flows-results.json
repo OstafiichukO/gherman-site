@@ -1,0 +1,212 @@
+{
+  "mobileHomeFlow": {
+    "exclusivesBlock": [
+      {
+        "sel": "section.excl-section",
+        "shown": true,
+        "text": "★ ЕКСКЛЮЗИВ АГЕНТСТВА Наш ексклюзивний об'єкт Найкраще, що є в Чернівцях зараз — показуємо особисто й лише тим, хто гото",
+        "h": 202
+      },
+      {
+        "sel": "div#excl-list",
+        "shown": true,
+        "text": "Завантаження...",
+        "h": 64
+      }
+    ],
+    "catPill": "clicked",
+    "afterCatPill": {
+      "cards": 16,
+      "text": "G GHERMAN Купити квартиру у Чернівцях АГЕНТСТВО НЕРУХОМОСТІ GHERMAN Знайти Квартира ♡ GHERMAN ‹ › 1/6 Продаж 88 000$ пр.Незалежності (мікрорайон) 50 м² 2 9/9 Вулиця Проспект Ремонт євроремонт Тип ново",
+      "scrollY": 0,
+      "bodyOverflow": "visible"
+    },
+    "overflowAfterCat": {
+      "vw": 390,
+      "docW": 390,
+      "over": 0,
+      "bad": []
+    },
+    "filter": {
+      "priceMin": true,
+      "priceMax": true
+    },
+    "afterFilter": {
+      "text": "G GHERMAN Купити квартиру у Чернівцях АГЕНТСТВО НЕРУХОМОСТІ GHERMAN Знайти Квартира ♡ GHERMAN ‹ › 1/6 Продаж 88 000$ пр.Незалежності (мікрорайон) 50 м² 2 9/9 Вулиця Проспект Ремонт євроремонт Тип новобудова Код GH-92824A Квартира ♡ GHERMAN "
+    },
+    "leadModal": {
+      "before": "none",
+      "after": "flex",
+      "bodyOverflow": "hidden"
+    },
+    "escapeClosesModal": "flex",
+    "historyLen": 3,
+    "emptySubmit": {
+      "hasRequired": {
+        "name": false,
+        "phone": false
+      },
+      "btn": "Відправити заявку"
+    },
+    "errs": [],
+    "consoleErrors": [
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+    ],
+    "postRequests": [
+      {
+        "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/rest/v1/site_visits",
+        "status": 201,
+        "post": "{\"visitor_id\":\"v_mtotjmam_xomszy\",\"country\":\"United States\",\"city\":\"San Francisco\",\"page_path\":\"/\",\"referrer\":\"\",\"user_agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0 Mobile/15E148 Safari/604.1\"}"
+      }
+    ]
+  },
+  "overflow_320": {
+    "vw": 320,
+    "docW": 320,
+    "over": 0,
+    "bad": []
+  },
+  "overflow_360": {
+    "vw": 360,
+    "docW": 360,
+    "over": 0,
+    "bad": []
+  },
+  "desktopGate": {
+    "finalUrl": "https://gherman.com.ua/index-desktop-preview.html",
+    "docs": [
+      {
+        "u": "https://gherman.com.ua/",
+        "s": 200,
+        "kb": 5146
+      },
+      {
+        "u": "https://gherman.com.ua/index-desktop-preview.html",
+        "s": 200,
+        "kb": 5333
+      }
+    ]
+  },
+  "touchLaptop": {
+    "finalUrl": "https://gherman.com.ua/",
+    "docW": 1440,
+    "vw": 1440,
+    "heroW": 440,
+    "contentMaxW": 480
+  },
+  "deepLinks": [
+    {
+      "path": "/?info=insurance",
+      "status": 200,
+      "err": null,
+      "title": "GHERMAN — Агенція нерухомості в Чернівцях | Квартири, будинки, земля, новобудови",
+      "h1": "Простір для життя, яке ви уявляли.",
+      "ogImage": "https://gherman.com.ua/og-cover.jpg",
+      "ogTitle": "GHERMAN — Агенція нерухомості в Чернівцях",
+      "canonical": "https://gherman.com.ua/",
+      "robots": "index, follow, max-image-preview:large",
+      "visibleModal": [
+        "info-modal-overlay",
+        "info-modal-inner",
+        "info-modal-body"
+      ],
+      "bodyStart": "G GHERMAN ВАША АГЕНЦІЯ НЕРУХОМОСТІ В ЧЕРНІВЦЯХ G GHERMAN × ОФІЦІЙНИЙ ПАРТНЕР ТАС Страхування ТАС У 2026 році страхова гр"
+    },
+    {
+      "path": "/?obj=01aa4881-6eff-40a2-ba44-2be4b0ac6b40",
+      "status": 200,
+      "err": null,
+      "title": "Об'єкт у районі центр, Чернівці | GHERMAN",
+      "h1": "Простір для життя, яке ви уявляли.",
+      "ogImage": "https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/01aa4881-6eff-40a2-ba44-2be4b0",
+      "ogTitle": "3-кімнатна Квартира — 72 000$ · центр | GHERMAN",
+      "canonical": "https://gherman.com.ua/?obj=01aa4881-6eff-40a2-ba44-2be4b0ac6b40",
+      "robots": "index, follow, max-image-preview:large",
+      "visibleModal": [
+        "obj-modal-overlay",
+        "obj-modal-body",
+        "obj-modal-content",
+        "modal-gallery-wrap",
+        "modal-gallery-photo"
+      ],
+      "bodyStart": "G GHERMAN ВАША АГЕНЦІЯ НЕРУХОМОСТІ В ЧЕРНІВЦЯХ Квартира Будинок Земля РАЙОН 📍 Будь-який район КІМНАТ залиште пустим, що"
+    },
+    {
+      "path": "/baza-znan/",
+      "status": 404,
+      "err": null,
+      "title": "Page not found",
+      "h1": "Page not found",
+      "ogImage": null,
+      "ogTitle": null,
+      "canonical": null,
+      "robots": null,
+      "visibleModal": [],
+      "bodyStart": "Page not found Looks like you’ve followed a broken link or entered a URL that doesn’t exist on this site. If this is you"
+    },
+    {
+      "path": "/rayony/",
+      "status": 404,
+      "err": null,
+      "title": "Page not found",
+      "h1": "Page not found",
+      "ogImage": null,
+      "ogTitle": null,
+      "canonical": null,
+      "robots": null,
+      "visibleModal": [],
+      "bodyStart": "Page not found Looks like you’ve followed a broken link or entered a URL that doesn’t exist on this site. If this is you"
+    },
+    {
+      "path": "/listings/",
+      "status": 404,
+      "err": null,
+      "title": "Page not found",
+      "h1": "Page not found",
+      "ogImage": null,
+      "ogTitle": null,
+      "canonical": null,
+      "robots": null,
+      "visibleModal": [],
+      "bodyStart": "Page not found Looks like you’ve followed a broken link or entered a URL that doesn’t exist on this site. If this is you"
+    },
+    {
+      "path": "/nema-takoyi-storinky-xyz",
+      "status": 404,
+      "err": null,
+      "title": "Page not found",
+      "h1": "Page not found",
+      "ogImage": null,
+      "ogTitle": null,
+      "canonical": null,
+      "robots": null,
+      "visibleModal": [],
+      "bodyStart": "Page not found Looks like you’ve followed a broken link or entered a URL that doesn’t exist on this site. If this is you"
+    }
+  ],
+  "listingImage": {
+    "beforeImg": {
+      "docH": 713,
+      "imgBox": {
+        "w": 350,
+        "h": 0
+      }
+    },
+    "afterImg": {
+      "docH": 1380,
+      "imgBox": {
+        "w": 350,
+        "h": 667,
+        "nat": "672x1280",
+        "lazy": "lazy",
+        "hasWH": false
+      }
+    },
+    "photoBytes": [
+      {
+        "kb": 125,
+        "url": "https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/01aa4881-6"
+      }
+    ]
+  }
+}
