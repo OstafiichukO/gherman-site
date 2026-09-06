@@ -1,0 +1,336 @@
+{
+  "home-mobile": {
+    "contrastFails": 9,
+    "worst": [
+      {
+        "sel": "span.photo-wm-main",
+        "text": "GHERMAN",
+        "ratio": 1,
+        "need": 4.5,
+        "fs": 12,
+        "color": "rgba(255, 255, 255, 0.5)",
+        "bg": "rgb(255,255,255)"
+      },
+      {
+        "sel": "div.name",
+        "text": "GHERMAN",
+        "ratio": 1.15,
+        "need": 3,
+        "fs": 24,
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(241,239,235)"
+      },
+      {
+        "sel": "span",
+        "text": "★★★★★",
+        "ratio": 1.96,
+        "need": 4.5,
+        "fs": 16,
+        "color": "rgb(201, 169, 97)",
+        "bg": "rgb(241,239,235)"
+      },
+      {
+        "sel": "a.btn-outline",
+        "text": "Залишити відгук у Google",
+        "ratio": 2.25,
+        "need": 4.5,
+        "fs": 12,
+        "color": "rgb(201, 169, 97)",
+        "bg": "rgb(255,255,255)"
+      },
+      {
+        "sel": "div.field-label",
+        "text": "РАЙОН",
+        "ratio": 3.2,
+        "need": 4.5,
+        "fs": 10,
+        "color": "rgb(168, 140, 92)",
+        "bg": "rgb(255,255,255)"
+      },
+      {
+        "sel": "span",
+        "text": "БІЛЬШЕ ФІЛЬТРІВ",
+        "ratio": 3.2,
+        "need": 4.5,
+        "fs": 10,
+        "color": "rgb(168, 140, 92)",
+        "bg": "rgb(255,255,255)"
+      },
+      {
+        "sel": "p",
+        "text": "Продаж, купівля, оренда та обмін нерухом",
+        "ratio": 3.48,
+        "need": 4.5,
+        "fs": 13,
+        "color": "rgb(138, 125, 112)",
+        "bg": "rgb(241,239,235)"
+      },
+      {
+        "sel": "div.cp-catbadge",
+        "text": "Ексклюзив",
+        "ratio": 3.85,
+        "need": 4.5,
+        "fs": 11,
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(131,130,128)"
+      }
+    ],
+    "kb": {
+      "focusables": 34,
+      "positiveTabindex": 0,
+      "withoutVisibleFocus": 0
+    }
+  },
+  "listing-mobile": {
+    "contrastFails": 1,
+    "worst": [
+      {
+        "sel": "footer",
+        "text": "© 2013–2026 GHERMAN · Агенція нерухомост",
+        "ratio": 2.71,
+        "need": 4.5,
+        "fs": 13,
+        "color": "rgb(153, 153, 153)",
+        "bg": "rgb(251,249,245)"
+      }
+    ],
+    "kb": {
+      "focusables": 3,
+      "positiveTabindex": 0,
+      "withoutVisibleFocus": 0
+    }
+  },
+  "rayon-mobile": {
+    "contrastFails": 1,
+    "worst": [
+      {
+        "sel": "footer",
+        "text": "© 2013–2026 GHERMAN · Агенція нерухомост",
+        "ratio": 2.71,
+        "need": 4.5,
+        "fs": 13,
+        "color": "rgb(153, 153, 153)",
+        "bg": "rgb(251,249,245)"
+      }
+    ],
+    "kb": {
+      "focusables": 33,
+      "positiveTabindex": 0,
+      "withoutVisibleFocus": 0
+    }
+  },
+  "article-mobile": {
+    "contrastFails": 1,
+    "worst": [
+      {
+        "sel": "footer",
+        "text": "© 2013–2026 GHERMAN · Агенція нерухомост",
+        "ratio": 2.71,
+        "need": 4.5,
+        "fs": 13,
+        "color": "rgb(153, 153, 153)",
+        "bg": "rgb(251,249,245)"
+      }
+    ],
+    "kb": {
+      "focusables": 3,
+      "positiveTabindex": 0,
+      "withoutVisibleFocus": 0
+    }
+  },
+  "guide-mobile": {
+    "contrastFails": 2,
+    "worst": [
+      {
+        "sel": "footer",
+        "text": "© 2013–2026 GHERMAN · Агенція нерухомост",
+        "ratio": 2.71,
+        "need": 4.5,
+        "fs": 13,
+        "color": "rgb(153, 153, 153)",
+        "bg": "rgb(251,249,245)"
+      },
+      {
+        "sel": "p.sub",
+        "text": "Усе, що потрібно знати про купівлю, прод",
+        "ratio": 3.81,
+        "need": 4.5,
+        "fs": 14,
+        "color": "rgb(138, 125, 112)",
+        "bg": "rgb(251,249,245)"
+      }
+    ],
+    "kb": {
+      "focusables": 36,
+      "positiveTabindex": 0,
+      "withoutVisibleFocus": 0
+    }
+  },
+  "home-desktop": {
+    "contrastFails": 10,
+    "worst": [
+      {
+        "sel": "span.photo-wm-main",
+        "text": "GHERMAN",
+        "ratio": 1,
+        "need": 4.5,
+        "fs": 12,
+        "color": "rgba(255, 255, 255, 0.5)",
+        "bg": "rgb(255,255,255)"
+      },
+      {
+        "sel": "div.name",
+        "text": "GHERMAN",
+        "ratio": 1.15,
+        "need": 3,
+        "fs": 64,
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(241,239,235)"
+      },
+      {
+        "sel": "div.da-eyebrow",
+        "text": "ЩО КАЖУТЬ КЛІЄНТИ",
+        "ratio": 1.96,
+        "need": 4.5,
+        "fs": 11,
+        "color": "rgb(201, 169, 97)",
+        "bg": "rgb(241,239,235)"
+      },
+      {
+        "sel": "a.da-more",
+        "text": "Написати боту →",
+        "ratio": 1.96,
+        "need": 4.5,
+        "fs": 13.5,
+        "color": "rgb(201, 169, 97)",
+        "bg": "rgb(241,239,235)"
+      },
+      {
+        "sel": "div.cd-cap",
+        "text": "ОФІС",
+        "ratio": 1.96,
+        "need": 4.5,
+        "fs": 11,
+        "color": "rgb(201, 169, 97)",
+        "bg": "rgb(241,239,235)"
+      },
+      {
+        "sel": "a.btn-outline",
+        "text": "Залишити відгук у Google",
+        "ratio": 2.25,
+        "need": 4.5,
+        "fs": 12,
+        "color": "rgb(201, 169, 97)",
+        "bg": "rgb(255,255,255)"
+      },
+      {
+        "sel": "div.field-label",
+        "text": "РАЙОН",
+        "ratio": 3.2,
+        "need": 4.5,
+        "fs": 10,
+        "color": "rgb(168, 140, 92)",
+        "bg": "rgb(255,255,255)"
+      },
+      {
+        "sel": "span",
+        "text": "БІЛЬШЕ ФІЛЬТРІВ",
+        "ratio": 3.2,
+        "need": 4.5,
+        "fs": 10,
+        "color": "rgb(168, 140, 92)",
+        "bg": "rgb(255,255,255)"
+      }
+    ],
+    "kb": {
+      "focusables": 35,
+      "positiveTabindex": 0,
+      "withoutVisibleFocus": 0
+    }
+  },
+  "listing-desktop": {
+    "contrastFails": 1,
+    "worst": [
+      {
+        "sel": "footer",
+        "text": "© 2013–2026 GHERMAN · Агенція нерухомост",
+        "ratio": 2.71,
+        "need": 4.5,
+        "fs": 13,
+        "color": "rgb(153, 153, 153)",
+        "bg": "rgb(251,249,245)"
+      }
+    ],
+    "kb": {
+      "focusables": 3,
+      "positiveTabindex": 0,
+      "withoutVisibleFocus": 0
+    }
+  },
+  "rayon-desktop": {
+    "contrastFails": 1,
+    "worst": [
+      {
+        "sel": "footer",
+        "text": "© 2013–2026 GHERMAN · Агенція нерухомост",
+        "ratio": 2.71,
+        "need": 4.5,
+        "fs": 13,
+        "color": "rgb(153, 153, 153)",
+        "bg": "rgb(251,249,245)"
+      }
+    ],
+    "kb": {
+      "focusables": 33,
+      "positiveTabindex": 0,
+      "withoutVisibleFocus": 0
+    }
+  },
+  "article-desktop": {
+    "contrastFails": 1,
+    "worst": [
+      {
+        "sel": "footer",
+        "text": "© 2013–2026 GHERMAN · Агенція нерухомост",
+        "ratio": 2.71,
+        "need": 4.5,
+        "fs": 13,
+        "color": "rgb(153, 153, 153)",
+        "bg": "rgb(251,249,245)"
+      }
+    ],
+    "kb": {
+      "focusables": 3,
+      "positiveTabindex": 0,
+      "withoutVisibleFocus": 0
+    }
+  },
+  "guide-desktop": {
+    "contrastFails": 2,
+    "worst": [
+      {
+        "sel": "footer",
+        "text": "© 2013–2026 GHERMAN · Агенція нерухомост",
+        "ratio": 2.71,
+        "need": 4.5,
+        "fs": 13,
+        "color": "rgb(153, 153, 153)",
+        "bg": "rgb(251,249,245)"
+      },
+      {
+        "sel": "p.sub",
+        "text": "Усе, що потрібно знати про купівлю, прод",
+        "ratio": 3.81,
+        "need": 4.5,
+        "fs": 14,
+        "color": "rgb(138, 125, 112)",
+        "bg": "rgb(251,249,245)"
+      }
+    ],
+    "kb": {
+      "focusables": 36,
+      "positiveTabindex": 0,
+      "withoutVisibleFocus": 0
+    }
+  }
+}

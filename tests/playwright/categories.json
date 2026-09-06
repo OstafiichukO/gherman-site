@@ -1,0 +1,202 @@
+{
+  "mobile": {
+    "flat": {
+      "clicked": "ok",
+      "counter": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Скільки коштує квартира в Чернівцях?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Ціна залежить від району, площі та стану квартири. В GHERMAN представлені варіанти від бюджетних квартир на околицях до преміальних у центрі Чернівців. Актуальні ціни та варіанти можна дізнатись у пошуку на сайті або написавши нам у Telegram.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"В яких районах Чернівців працює GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"GHERMAN працює виключно у місті Чернівці та Чернівецькій області — по всіх районах міста: центр, Садгора, Роша, Калічанка, Ботанічний сад та інші.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Чи перевіряє GHERMAN документи перед угодою?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Так. Перед кожною угодою ми перевіряємо документи власника, супроводжуємо угоду до підпису та надаємо фотозйомку об'єкта за власний кошт для ексклюзивних об'єктів.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Як зв'язатись з GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Телефон: 050 220 55 99. Також можна написати у Telegram, Viber або WhatsApp — контакти вказані на сайті у футері.\"\n      }\n    }\n  ]\n}",
+      "empty": null,
+      "cards": 11,
+      "url": "https://gherman.com.ua/?p=flat",
+      "heading": "Простір для життя, яке ви уявляли.",
+      "title": "Квартири в Чернівцях — купити квартиру | GHERMAN",
+      "reqs": [
+        "200 public_site_objects?select=*&obj_cat=ilike.*flat*",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/92824af5-a2b9-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/d98dfe2d-8084-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/fb931e9f-9b18-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/bde5fead-985e-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/06e993f4-6fe4-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/a2b5cd72-9a31-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/fadbc1eb-6956-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/ae45a233-c989-4"
+      ]
+    },
+    "house": {
+      "clicked": "ok",
+      "counter": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Скільки коштує квартира в Чернівцях?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Ціна залежить від району, площі та стану квартири. В GHERMAN представлені варіанти від бюджетних квартир на околицях до преміальних у центрі Чернівців. Актуальні ціни та варіанти можна дізнатись у пошуку на сайті або написавши нам у Telegram.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"В яких районах Чернівців працює GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"GHERMAN працює виключно у місті Чернівці та Чернівецькій області — по всіх районах міста: центр, Садгора, Роша, Калічанка, Ботанічний сад та інші.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Чи перевіряє GHERMAN документи перед угодою?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Так. Перед кожною угодою ми перевіряємо документи власника, супроводжуємо угоду до підпису та надаємо фотозйомку об'єкта за власний кошт для ексклюзивних об'єктів.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Як зв'язатись з GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Телефон: 050 220 55 99. Також можна написати у Telegram, Viber або WhatsApp — контакти вказані на сайті у футері.\"\n      }\n    }\n  ]\n}",
+      "empty": null,
+      "cards": 11,
+      "url": "https://gherman.com.ua/?p=house",
+      "heading": "Простір для життя, яке ви уявляли.",
+      "title": "Будинки в Чернівцях — купити будинок | GHERMAN",
+      "reqs": [
+        "200 public_site_objects?select=*&obj_cat=ilike.*house*",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/f7c9b1bb-997c-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/4c9efaec-c096-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/ebecfd69-31f3-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/92b3e4cd-5b5d-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/ae4ff11d-2b59-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/054b7d05-ed03-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/1d0f7200-2404-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/2ccde273-38dd-4"
+      ]
+    },
+    "land": {
+      "clicked": "ok",
+      "counter": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Скільки коштує квартира в Чернівцях?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Ціна залежить від району, площі та стану квартири. В GHERMAN представлені варіанти від бюджетних квартир на околицях до преміальних у центрі Чернівців. Актуальні ціни та варіанти можна дізнатись у пошуку на сайті або написавши нам у Telegram.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"В яких районах Чернівців працює GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"GHERMAN працює виключно у місті Чернівці та Чернівецькій області — по всіх районах міста: центр, Садгора, Роша, Калічанка, Ботанічний сад та інші.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Чи перевіряє GHERMAN документи перед угодою?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Так. Перед кожною угодою ми перевіряємо документи власника, супроводжуємо угоду до підпису та надаємо фотозйомку об'єкта за власний кошт для ексклюзивних об'єктів.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Як зв'язатись з GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Телефон: 050 220 55 99. Також можна написати у Telegram, Viber або WhatsApp — контакти вказані на сайті у футері.\"\n      }\n    }\n  ]\n}",
+      "empty": null,
+      "cards": 5,
+      "url": "https://gherman.com.ua/?p=land",
+      "heading": "Простір для життя, яке ви уявляли.",
+      "title": "Земельні ділянки в Чернівцях | GHERMAN",
+      "reqs": [
+        "200 public_site_objects?select=*&obj_cat=ilike.*land*",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/9618d1f3-dcf7-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/6543b4d5-389c-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/331dd627-99ee-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/70ba32be-7682-4"
+      ]
+    },
+    "newbuild": {
+      "clicked": "ok",
+      "counter": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Скільки коштує квартира в Чернівцях?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Ціна залежить від району, площі та стану квартири. В GHERMAN представлені варіанти від бюджетних квартир на околицях до преміальних у центрі Чернівців. Актуальні ціни та варіанти можна дізнатись у пошуку на сайті або написавши нам у Telegram.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"В яких районах Чернівців працює GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"GHERMAN працює виключно у місті Чернівці та Чернівецькій області — по всіх районах міста: центр, Садгора, Роша, Калічанка, Ботанічний сад та інші.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Чи перевіряє GHERMAN документи перед угодою?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Так. Перед кожною угодою ми перевіряємо документи власника, супроводжуємо угоду до підпису та надаємо фотозйомку об'єкта за власний кошт для ексклюзивних об'єктів.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Як зв'язатись з GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Телефон: 050 220 55 99. Також можна написати у Telegram, Viber або WhatsApp — контакти вказані на сайті у футері.\"\n      }\n    }\n  ]\n}",
+      "empty": null,
+      "cards": 11,
+      "url": "https://gherman.com.ua/?p=newbuild",
+      "heading": "Простір для життя, яке ви уявляли.",
+      "title": "Новобудови Чернівців — квартири від забудовника | GHERMAN",
+      "reqs": [
+        "200 public_site_objects?select=*&house_type=ilike.*%D0%BD%D0%BE%D0%B2%D0%BE%D0%B1%D1%83%D0%B4%D0%BE",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/92824af5-a2b9-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/ae45a233-c989-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/a2b5cd72-9a31-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/fadbc1eb-6956-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/f0977829-ae53-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/70ad7a5d-15eb-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/5870c885-ddb9-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/2b5ae61d-7d46-4"
+      ]
+    },
+    "commerce": {
+      "clicked": "ok",
+      "counter": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Скільки коштує квартира в Чернівцях?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Ціна залежить від району, площі та стану квартири. В GHERMAN представлені варіанти від бюджетних квартир на околицях до преміальних у центрі Чернівців. Актуальні ціни та варіанти можна дізнатись у пошуку на сайті або написавши нам у Telegram.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"В яких районах Чернівців працює GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"GHERMAN працює виключно у місті Чернівці та Чернівецькій області — по всіх районах міста: центр, Садгора, Роша, Калічанка, Ботанічний сад та інші.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Чи перевіряє GHERMAN документи перед угодою?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Так. Перед кожною угодою ми перевіряємо документи власника, супроводжуємо угоду до підпису та надаємо фотозйомку об'єкта за власний кошт для ексклюзивних об'єктів.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Як зв'язатись з GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Телефон: 050 220 55 99. Також можна написати у Telegram, Viber або WhatsApp — контакти вказані на сайті у футері.\"\n      }\n    }\n  ]\n}",
+      "empty": "Наразі немає об'єктів з фото у цьому розділі. Напишіть нам — підберемо з повної бази.",
+      "cards": 1,
+      "url": "https://gherman.com.ua/?p=commerce",
+      "heading": "Простір для життя, яке ви уявляли.",
+      "title": "Комерційна нерухомість Чернівців | GHERMAN",
+      "reqs": [
+        "200 public_site_objects?select=*&obj_cat=ilike.*commerce*"
+      ]
+    },
+    "rental": {
+      "clicked": "ok",
+      "counter": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Скільки коштує квартира в Чернівцях?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Ціна залежить від району, площі та стану квартири. В GHERMAN представлені варіанти від бюджетних квартир на околицях до преміальних у центрі Чернівців. Актуальні ціни та варіанти можна дізнатись у пошуку на сайті або написавши нам у Telegram.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"В яких районах Чернівців працює GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"GHERMAN працює виключно у місті Чернівці та Чернівецькій області — по всіх районах міста: центр, Садгора, Роша, Калічанка, Ботанічний сад та інші.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Чи перевіряє GHERMAN документи перед угодою?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Так. Перед кожною угодою ми перевіряємо документи власника, супроводжуємо угоду до підпису та надаємо фотозйомку об'єкта за власний кошт для ексклюзивних об'єктів.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Як зв'язатись з GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Телефон: 050 220 55 99. Також можна написати у Telegram, Viber або WhatsApp — контакти вказані на сайті у футері.\"\n      }\n    }\n  ]\n}",
+      "empty": "Наразі немає об'єктів з фото у цьому розділі. Напишіть нам — підберемо з повної бази.",
+      "cards": 1,
+      "url": "https://gherman.com.ua/?p=rental",
+      "heading": "Простір для життя, яке ви уявляли.",
+      "title": "Оренда квартир і будинків у Чернівцях | GHERMAN",
+      "reqs": [
+        "400 public_site_objects?select=*&type=eq.rent_offer",
+        "200 manual_listings?select=*&listing_type=eq.rental&active=eq.true"
+      ]
+    }
+  },
+  "desktop": {
+    "flat": {
+      "clicked": "ok",
+      "counter": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Скільки коштує квартира в Чернівцях?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Ціна залежить від району, площі та стану квартири. В GHERMAN представлені варіанти від бюджетних квартир на околицях до преміальних у центрі Чернівців. Актуальні ціни та варіанти можна дізнатись у пошуку на сайті або написавши нам у Telegram.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"В яких районах Чернівців працює GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"GHERMAN працює виключно у місті Чернівці та Чернівецькій області — по всіх районах міста: центр, Садгора, Роша, Калічанка, Ботанічний сад та інші.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Чи перевіряє GHERMAN документи перед угодою?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Так. Перед кожною угодою ми перевіряємо документи власника, супроводжуємо угоду до підпису та надаємо фотозйомку об'єкта за власний кошт для ексклюзивних об'єктів.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Як зв'язатись з GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Телефон: 050 220 55 99. Також можна написати у Telegram, Viber або WhatsApp — контакти вказані на сайті у футері.\"\n      }\n    }\n  ]\n}",
+      "empty": null,
+      "cards": 17,
+      "url": "https://gherman.com.ua/index-desktop-preview.html",
+      "heading": "Простір для життя, яке ви уявляли.",
+      "title": "GHERMAN — Агенція нерухомості в Чернівцях | Квартири, будинки, земля, ",
+      "reqs": [
+        "200 public_site_objects?select=*&obj_cat=ilike.*flat*&price=lte.45000",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/d98dfe2d-8084-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/a2b5cd72-9a31-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/06e993f4-6fe4-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/fb931e9f-9b18-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/cadd3fa4-36bb-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/13230af5-c8ef-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/34b521d7-1b03-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/cec62ff2-a468-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/ddd1e96b-47e1-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/9de7a4cc-26d3-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/042faebc-50e5-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/b8d7cb0d-30c2-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/6039cd78-ac60-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/49d0e1b0-0b61-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/e5880515-6416-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/afc960c6-8245-4"
+      ]
+    },
+    "house": {
+      "clicked": "ok",
+      "counter": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Скільки коштує квартира в Чернівцях?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Ціна залежить від району, площі та стану квартири. В GHERMAN представлені варіанти від бюджетних квартир на околицях до преміальних у центрі Чернівців. Актуальні ціни та варіанти можна дізнатись у пошуку на сайті або написавши нам у Telegram.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"В яких районах Чернівців працює GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"GHERMAN працює виключно у місті Чернівці та Чернівецькій області — по всіх районах міста: центр, Садгора, Роша, Калічанка, Ботанічний сад та інші.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Чи перевіряє GHERMAN документи перед угодою?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Так. Перед кожною угодою ми перевіряємо документи власника, супроводжуємо угоду до підпису та надаємо фотозйомку об'єкта за власний кошт для ексклюзивних об'єктів.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Як зв'язатись з GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Телефон: 050 220 55 99. Також можна написати у Telegram, Viber або WhatsApp — контакти вказані на сайті у футері.\"\n      }\n    }\n  ]\n}",
+      "empty": null,
+      "cards": 6,
+      "url": "https://gherman.com.ua/index-desktop-preview.html",
+      "heading": "Простір для життя, яке ви уявляли.",
+      "title": "GHERMAN — Агенція нерухомості в Чернівцях | Квартири, будинки, земля, ",
+      "reqs": [
+        "200 public_site_objects?select=*&obj_cat=ilike.*house*&price=lte.45000",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/ae4ff11d-2b59-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/2d0bc2dd-278b-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/e9f048b8-ed57-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/10bb021e-aac5-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/2d1064eb-79f8-4"
+      ]
+    },
+    "land": {
+      "clicked": "ok",
+      "counter": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Скільки коштує квартира в Чернівцях?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Ціна залежить від району, площі та стану квартири. В GHERMAN представлені варіанти від бюджетних квартир на околицях до преміальних у центрі Чернівців. Актуальні ціни та варіанти можна дізнатись у пошуку на сайті або написавши нам у Telegram.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"В яких районах Чернівців працює GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"GHERMAN працює виключно у місті Чернівці та Чернівецькій області — по всіх районах міста: центр, Садгора, Роша, Калічанка, Ботанічний сад та інші.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Чи перевіряє GHERMAN документи перед угодою?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Так. Перед кожною угодою ми перевіряємо документи власника, супроводжуємо угоду до підпису та надаємо фотозйомку об'єкта за власний кошт для ексклюзивних об'єктів.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Як зв'язатись з GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Телефон: 050 220 55 99. Також можна написати у Telegram, Viber або WhatsApp — контакти вказані на сайті у футері.\"\n      }\n    }\n  ]\n}",
+      "empty": null,
+      "cards": 3,
+      "url": "https://gherman.com.ua/index-desktop-preview.html",
+      "heading": "Простір для життя, яке ви уявляли.",
+      "title": "GHERMAN — Агенція нерухомості в Чернівцях | Квартири, будинки, земля, ",
+      "reqs": [
+        "200 public_site_objects?select=*&obj_cat=ilike.*land*&price=lte.45000",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/6543b4d5-389c-4",
+        "200 https://yglebmbtdyjyqnmwwsku.supabase.co/storage/v1/object/public/object-photos/9618d1f3-dcf7-4"
+      ]
+    },
+    "newbuild": {
+      "clicked": "ok",
+      "counter": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Скільки коштує квартира в Чернівцях?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Ціна залежить від району, площі та стану квартири. В GHERMAN представлені варіанти від бюджетних квартир на околицях до преміальних у центрі Чернівців. Актуальні ціни та варіанти можна дізнатись у пошуку на сайті або написавши нам у Telegram.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"В яких районах Чернівців працює GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"GHERMAN працює виключно у місті Чернівці та Чернівецькій області — по всіх районах міста: центр, Садгора, Роша, Калічанка, Ботанічний сад та інші.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Чи перевіряє GHERMAN документи перед угодою?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Так. Перед кожною угодою ми перевіряємо документи власника, супроводжуємо угоду до підпису та надаємо фотозйомку об'єкта за власний кошт для ексклюзивних об'єктів.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Як зв'язатись з GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Телефон: 050 220 55 99. Також можна написати у Telegram, Viber або WhatsApp — контакти вказані на сайті у футері.\"\n      }\n    }\n  ]\n}",
+      "empty": "Наразі немає об'єктів з фото у цій категорії. Напишіть нам — підберемо варіант з повної бази.",
+      "cards": 1,
+      "url": "https://gherman.com.ua/index-desktop-preview.html",
+      "heading": "Простір для життя, яке ви уявляли.",
+      "title": "GHERMAN — Агенція нерухомості в Чернівцях | Квартири, будинки, земля, ",
+      "reqs": [
+        "200 public_site_objects?select=*&obj_cat=ilike.*newbuild*&price=lte.45000"
+      ]
+    },
+    "commerce": {
+      "clicked": "ok",
+      "counter": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Скільки коштує квартира в Чернівцях?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Ціна залежить від району, площі та стану квартири. В GHERMAN представлені варіанти від бюджетних квартир на околицях до преміальних у центрі Чернівців. Актуальні ціни та варіанти можна дізнатись у пошуку на сайті або написавши нам у Telegram.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"В яких районах Чернівців працює GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"GHERMAN працює виключно у місті Чернівці та Чернівецькій області — по всіх районах міста: центр, Садгора, Роша, Калічанка, Ботанічний сад та інші.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Чи перевіряє GHERMAN документи перед угодою?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Так. Перед кожною угодою ми перевіряємо документи власника, супроводжуємо угоду до підпису та надаємо фотозйомку об'єкта за власний кошт для ексклюзивних об'єктів.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Як зв'язатись з GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Телефон: 050 220 55 99. Також можна написати у Telegram, Viber або WhatsApp — контакти вказані на сайті у футері.\"\n      }\n    }\n  ]\n}",
+      "empty": "Наразі немає об'єктів з фото у цій категорії. Напишіть нам — підберемо варіант з повної бази.",
+      "cards": 1,
+      "url": "https://gherman.com.ua/index-desktop-preview.html",
+      "heading": "Простір для життя, яке ви уявляли.",
+      "title": "GHERMAN — Агенція нерухомості в Чернівцях | Квартири, будинки, земля, ",
+      "reqs": [
+        "200 public_site_objects?select=*&obj_cat=ilike.*commerce*&price=lte.45000"
+      ]
+    },
+    "rental": {
+      "clicked": "ok",
+      "counter": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Скільки коштує квартира в Чернівцях?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Ціна залежить від району, площі та стану квартири. В GHERMAN представлені варіанти від бюджетних квартир на околицях до преміальних у центрі Чернівців. Актуальні ціни та варіанти можна дізнатись у пошуку на сайті або написавши нам у Telegram.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"В яких районах Чернівців працює GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"GHERMAN працює виключно у місті Чернівці та Чернівецькій області — по всіх районах міста: центр, Садгора, Роша, Калічанка, Ботанічний сад та інші.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Чи перевіряє GHERMAN документи перед угодою?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Так. Перед кожною угодою ми перевіряємо документи власника, супроводжуємо угоду до підпису та надаємо фотозйомку об'єкта за власний кошт для ексклюзивних об'єктів.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Як зв'язатись з GHERMAN?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Телефон: 050 220 55 99. Також можна написати у Telegram, Viber або WhatsApp — контакти вказані на сайті у футері.\"\n      }\n    }\n  ]\n}",
+      "empty": "Наразі немає об'єктів з фото у цій категорії. Напишіть нам — підберемо варіант з повної бази.",
+      "cards": 1,
+      "url": "https://gherman.com.ua/index-desktop-preview.html",
+      "heading": "Простір для життя, яке ви уявляли.",
+      "title": "GHERMAN — Агенція нерухомості в Чернівцях | Квартири, будинки, земля, ",
+      "reqs": [
+        "200 public_site_objects?select=*&obj_cat=ilike.*rental*&price=lte.45000"
+      ]
+    }
+  }
+}

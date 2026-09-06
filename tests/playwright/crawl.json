@@ -1,0 +1,145 @@
+{
+  "sitemap": {
+    "checked": 699,
+    "bad": [
+      {
+        "url": "https://gherman.com.ua/listings/784b52fb-c1a5-4125-8221-936a39ceaa15.html",
+        "status": 404,
+        "loc": null
+      },
+      {
+        "url": "https://gherman.com.ua/listings/94f40c86-fe7b-4e30-a13e-7cf4489f9498.html",
+        "status": 404,
+        "loc": null
+      }
+    ]
+  },
+  "internal": {
+    "checked": 614,
+    "bad": [
+      {
+        "url": "https://gherman.com.ua/kimnatnist/1-kimnatni-kvartyry-chernivtsi.html",
+        "status": 404,
+        "loc": null,
+        "from": [
+          "gid-po-neruhomosti-chernivtsi.html"
+        ]
+      },
+      {
+        "url": "https://gherman.com.ua/kimnatnist/2-kimnatni-kvartyry-chernivtsi.html",
+        "status": 404,
+        "loc": null,
+        "from": [
+          "gid-po-neruhomosti-chernivtsi.html"
+        ]
+      },
+      {
+        "url": "https://gherman.com.ua/kimnatnist/3-kimnatni-kvartyry-chernivtsi.html",
+        "status": 404,
+        "loc": null,
+        "from": [
+          "gid-po-neruhomosti-chernivtsi.html"
+        ]
+      },
+      {
+        "url": "https://gherman.com.ua/novobudovy/novobudovy-chernivtsi.html",
+        "status": 404,
+        "loc": null,
+        "from": [
+          "gid-po-neruhomosti-chernivtsi.html"
+        ]
+      }
+    ]
+  },
+  "external": {
+    "checked": 17,
+    "note": "Зовнішні хости недоступні з середовища прогону через політику егресу — результати нижче НЕ є доказом, що посилання биті.",
+    "results": [
+      {
+        "url": "https://gherman-agency.netlify.app/",
+        "status": 200,
+        "err": null
+      },
+      {
+        "url": "https://t.me/ghermancv",
+        "status": 0,
+        "err": "TypeError"
+      },
+      {
+        "url": "https://instagram.com/gherman.agency",
+        "status": 0,
+        "err": "TypeError"
+      },
+      {
+        "url": "https://www.facebook.com/share/1CFonVz2vr/?mibextid=wwXIfr",
+        "status": 0,
+        "err": "TypeError"
+      },
+      {
+        "url": "https://tiktok.com/@gherman.agency",
+        "status": 0,
+        "err": "TypeError"
+      },
+      {
+        "url": "https://search.google.com/local/writereview?placeid=ChIJq6q6hLsINEcR4OgcI6S_YV0",
+        "status": 0,
+        "err": "TypeError"
+      },
+      {
+        "url": "https://t.me/tas_strahovka_bot",
+        "status": 0,
+        "err": "TypeError"
+      },
+      {
+        "url": "https://avtostrahovka.com.ua",
+        "status": 0,
+        "err": "TypeError"
+      },
+      {
+        "url": "https://www.google.com/maps/search/?api=1&query=Чернівці+вулиця+Героїв+Майдану+31",
+        "status": 0,
+        "err": "TypeError"
+      },
+      {
+        "url": "https://wa.me/380502205599",
+        "status": 0,
+        "err": "TypeError"
+      },
+      {
+        "url": "https://t.me/gherman_site_crm_bot",
+        "status": 0,
+        "err": "TypeError"
+      },
+      {
+        "url": "https://t.me/${tgUser}?text=${tgText}",
+        "status": 0,
+        "err": "TypeError"
+      },
+      {
+        "url": "https://www.google.com/maps/search/?api=1&query=${mapQuery}",
+        "status": 0,
+        "err": "TypeError"
+      },
+      {
+        "url": "https://wa.me/?text=${text}",
+        "status": 0,
+        "err": "TypeError"
+      },
+      {
+        "url": "https://t.me/share/url?url=${url}&text=${text}",
+        "status": 0,
+        "err": "TypeError"
+      },
+      {
+        "url": "https://t.me/share/url?url=${url}&text=${encodeURIComponent('GHERMAN — агенція нерухомості в Чернівцях')}",
+        "status": 0,
+        "err": "TypeError"
+      },
+      {
+        "url": "https://www.facebook.com/sharer/sharer.php?u=${url}",
+        "status": 0,
+        "err": "TypeError"
+      }
+    ]
+  }
+}

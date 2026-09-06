@@ -1,0 +1,222 @@
+{
+  "cpu": {
+    "home-x1": {
+      "loadMs": 1035,
+      "fcp": 512,
+      "lcp": 892,
+      "cls": 0,
+      "domInteractive": 570,
+      "domContentLoaded": 570,
+      "longTasks": [
+        51,
+        70
+      ],
+      "longTaskTotal": 121,
+      "categorySwitchMs": 833
+    },
+    "home-x4": {
+      "loadMs": 1150,
+      "fcp": 776,
+      "lcp": 1076,
+      "cls": 0,
+      "domInteractive": 1063,
+      "domContentLoaded": 1063,
+      "longTasks": [
+        187,
+        62,
+        144
+      ],
+      "longTaskTotal": 393,
+      "categorySwitchMs": 748
+    },
+    "home-x6": {
+      "loadMs": 1661,
+      "fcp": 792,
+      "lcp": 1220,
+      "cls": 0,
+      "domInteractive": 1489,
+      "domContentLoaded": 1489,
+      "longTasks": [
+        135,
+        186,
+        53,
+        213,
+        74
+      ],
+      "longTaskTotal": 661,
+      "categorySwitchMs": 750
+    }
+  },
+  "viewports": {
+    "phone-320": {
+      "vw": 320,
+      "docW": 320,
+      "overflow": 0,
+      "offenders": [],
+      "docH": 7751,
+      "bodyChildrenWidths": [
+        320,
+        288,
+        292,
+        44
+      ],
+      "h1Width": 280,
+      "contentWidth": 320,
+      "url": "/"
+    },
+    "phone-360": {
+      "vw": 360,
+      "docW": 360,
+      "overflow": 0,
+      "offenders": [],
+      "docH": 7649,
+      "bodyChildrenWidths": [
+        360,
+        328,
+        332,
+        44
+      ],
+      "h1Width": 320,
+      "contentWidth": 360,
+      "url": "/"
+    },
+    "phone-390": {
+      "vw": 390,
+      "docW": 390,
+      "overflow": 0,
+      "offenders": [],
+      "docH": 7619,
+      "bodyChildrenWidths": [
+        390,
+        358,
+        362,
+        44
+      ],
+      "h1Width": 350,
+      "contentWidth": 390,
+      "url": "/"
+    },
+    "phone-landscape": {
+      "vw": 844,
+      "docW": 844,
+      "overflow": 0,
+      "offenders": [],
+      "docH": 7839,
+      "bodyChildrenWidths": [
+        844,
+        480,
+        448,
+        452,
+        44
+      ],
+      "h1Width": 440,
+      "contentWidth": 480,
+      "url": "/"
+    },
+    "tablet-768": {
+      "vw": 768,
+      "docW": 768,
+      "overflow": 0,
+      "offenders": [],
+      "docH": 7839,
+      "bodyChildrenWidths": [
+        768,
+        480,
+        448,
+        452,
+        44
+      ],
+      "h1Width": 440,
+      "contentWidth": 480,
+      "url": "/"
+    },
+    "tablet-820": {
+      "vw": 820,
+      "docW": 820,
+      "overflow": 0,
+      "offenders": [],
+      "docH": 7839,
+      "bodyChildrenWidths": [
+        820,
+        480,
+        448,
+        452,
+        44
+      ],
+      "h1Width": 440,
+      "contentWidth": 480,
+      "url": "/"
+    },
+    "tablet-1024": {
+      "vw": 1024,
+      "docW": 1024,
+      "overflow": 0,
+      "offenders": [],
+      "docH": 7839,
+      "bodyChildrenWidths": [
+        1024,
+        480,
+        448,
+        452,
+        44
+      ],
+      "h1Width": 440,
+      "contentWidth": 480,
+      "url": "/"
+    },
+    "laptop-1280": {
+      "vw": 1280,
+      "docW": 1280,
+      "overflow": 0,
+      "offenders": [],
+      "docH": 9787,
+      "bodyChildrenWidths": [
+        1280,
+        1240,
+        1100,
+        640,
+        1000,
+        1200
+      ],
+      "h1Width": 980,
+      "contentWidth": 1280,
+      "url": "/index-desktop-preview.html"
+    },
+    "desktop-1440": {
+      "vw": 1440,
+      "docW": 1440,
+      "overflow": 0,
+      "offenders": [],
+      "docH": 9895,
+      "bodyChildrenWidths": [
+        1440,
+        1240,
+        1100,
+        640,
+        1000,
+        1200
+      ],
+      "h1Width": 980,
+      "contentWidth": 1440,
+      "url": "/index-desktop-preview.html"
+    },
+    "wide-1920": {
+      "vw": 1920,
+      "docW": 1920,
+      "overflow": 0,
+      "offenders": [],
+      "docH": 10271,
+      "bodyChildrenWidths": [
+        1920,
+        1240,
+        1100,
+        640,
+        1000,
+        1200
+      ],
+      "h1Width": 980,
+      "contentWidth": 1920,
+      "url": "/index-desktop-preview.html"
+    }
+  }
+}
